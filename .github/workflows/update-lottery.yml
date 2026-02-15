@@ -18,11 +18,6 @@ jobs:
         with:
           node-version: 18
 
-      - name: Install dependencies
-        run: |
-          npm init -y
-          npm install cheerio
-
       - name: Run update script
         run: node scripts/update-lottery.js
 
