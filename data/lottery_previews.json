@@ -1,0 +1,20 @@
+{
+  "last_updated": "",
+  "cash_pot": {
+    "draw_time": "",
+    "numbers": [],
+    "jackpot": ""
+  },
+  "lotto": {
+    "draw_date": "",
+    "numbers": [],
+    "bonus": "",
+    "jackpot": ""
+  },
+  "super_lotto": {
+    "draw_date": "",
+    "numbers": [],
+    "bonus": "",
+    "jackpot": ""
+  }
+}
