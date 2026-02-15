@@ -1,27 +1,23 @@
 {
-  "source": {
-    "cash_pot": "https://www.jamaicaindex.com/lottery/results/cash-pot",
-    "lotto": "https://www.jamaicaindex.com/lottery/results/lotto",
-    "super_lotto": "https://www.jamaicaindex.com/lottery/results/super-lotto"
-  },
-  "last_updated_utc": "2026-02-15T20:55:48.454Z",
+  "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
+  "last_updated_utc": "2026-02-15T21:02:26.849Z",
   "games": {
     "cash_pot": {
       "label": "Cash Pot",
-      "date": "ResultMonTueWedThuFriSatSunSunday | 15 February 2026",
+      "date": "15 February 2026",
       "latest": null,
       "draws": []
     },
     "lotto": {
       "label": "Lotto",
-      "date": null,
+      "date": "15 February 2026",
       "numbers": [],
       "bonus": null,
       "next_jackpot": null
     },
     "super_lotto": {
       "label": "Super Lotto",
-      "date": null,
+      "date": "15 February 2026",
       "numbers": [],
       "bonus": null,
       "next_jackpot": null
