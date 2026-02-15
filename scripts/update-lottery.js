@@ -7,7 +7,7 @@
 
 import fs from "fs";
 import path from "path";
-import cheerio from "cheerio";
+import { load } from "cheerio";
 
 const OUT_FILE = path.join(process.cwd(), "data", "lottery_previews.json");
 
@@ -35,7 +35,7 @@ async function fetchHtml(url) {
 }
 
 function normalizeText(html) {
-  const $ = cheerio.load(html);
+  const $ = load(html);
   // Body text is enough for these pages
   const txt = $("body").text();
   return txt.replace(/\u00a0/g, " ").replace(/[ \t]+/g, " ").replace(/\s+\n/g, "\n").trim();
