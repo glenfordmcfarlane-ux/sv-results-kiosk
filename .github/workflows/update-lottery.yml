@@ -1,0 +1,35 @@
+name: Update Lottery Previews
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: |
+          npm init -y
+          npm install node-fetch cheerio
+
+      - name: Run update script
+        run: node scripts/update-lottery.js
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add data/lottery_previews.json
+          git commit -m "Auto update lottery previews" || echo "No changes"
+          git push
