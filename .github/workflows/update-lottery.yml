@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
           npm init -y
-          npm install node-fetch cheerio
+          npm install cheerio
 
       - name: Run update script
         run: node scripts/update-lottery.js
