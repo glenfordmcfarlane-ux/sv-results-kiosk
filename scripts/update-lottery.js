@@ -1,6 +1,6 @@
 const fs = require("fs");
-const fetch = require("node-fetch");
 const cheerio = require("cheerio");
+// Node 18+ has built-in fetch (no need for node-fetch)
 
 const URL = "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today";
 
