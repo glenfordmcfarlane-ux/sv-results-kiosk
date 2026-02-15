@@ -1,188 +1,193 @@
-const fs = require("fs");
-const cheerio = require("cheerio");
-
-// Source page
-const SOURCE_URL =
-  "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today";
-
 /**
- * CONFIG: Add/remove games here (this is what makes it easy to switch previews)
- * key: how you reference it in your kiosk
- * heading: the exact H2 text on the page
- * type: "multi" (many draws like Cash Pot) or "single" (one draw like Lotto)
+ * Update lottery preview JSON by scraping jamaicaindex "results for today".
+ * Writes: data/lottery_previews.json
+ *
+ * Requires: npm i cheerio
  */
-const GAMES = [
-  { key: "cash_pot", label: "Cash Pot", heading: "Cash Pot Result", type: "multi" },
-  { key: "lotto", label: "Lotto", heading: "Lotto Result", type: "single" },
-  { key: "super_lotto", label: "Super Lotto", heading: "Super Lotto Result", type: "single" },
-];
+import fs from "fs";
+import path from "path";
+import cheerio from "cheerio";
 
-async function fetchHtml(url) {
-  const res = await fetch(url, {
-    headers: {
-      "User-Agent": "Mozilla/5.0 (ResultsKioskBot)",
-      "Accept": "text/html,application/xhtml+xml",
-    },
-  });
-  if (!res.ok) throw new Error(`Fetch failed ${res.status} ${res.statusText}`);
-  return await res.text();
+const SOURCE_URL = "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today";
+const OUT_FILE = path.join(process.cwd(), "data", "lottery_previews.json");
+
+function nowUtcIso() {
+  return new Date().toISOString();
 }
 
-// Get all text between this <h2> section and the next <h2>
-function getSectionNodes($, headingText) {
-  const h2 = $("h2")
-    .filter((_, el) => $(el).text().trim() === headingText)
+function normalizeText(s) {
+  return (s ?? "").replace(/\s+/g, " ").trim();
+}
+
+function parseDateFromTimeTag($, $scope) {
+  // <time datetime="2026-02-15"><b>Sunday</b> | 15 February 2026</time>
+  const $t = $scope.find("time[datetime]").first();
+  const iso = normalizeText($t.attr("datetime"));
+  const label = normalizeText($t.text());
+  return { iso: iso || null, label: label || null };
+}
+
+function parseMoney(s) {
+  const t = normalizeText(s);
+  if (!t) return null;
+  // keep as string (e.g., "$39M", "$316M", "$200,000.00") since site varies
+  return t;
+}
+
+function parseCashPotToday($) {
+  // First v2_lotto_con is Cash Pot Result
+  const $cash = $("h2:contains('Cash Pot Result')")
+    .closest(".v2_lotto_con")
     .first();
 
-  if (!h2.length) return null;
-
-  const nodes = [];
-  let cur = h2.next();
-
-  while (cur.length) {
-    if (cur.is("h2")) break;
-    nodes.push(cur);
-    cur = cur.next();
-  }
-  return nodes;
-}
-
-function extractDateFromNodes($, nodes) {
-  // Page shows lines like: "Saturday | 14 February 2026"
-  for (const n of nodes) {
-    const t = $(n).text().replace(/\s+/g, " ").trim();
-    if (t.includes("|")) return t;
-  }
-  return null;
-}
-
-function extractNextJackpotFromNodes($, nodes) {
-  for (const n of nodes) {
-    const t = $(n).text().replace(/\s+/g, " ").trim();
-    if (t.toLowerCase().includes("next jackpot:")) return t.replace(/^.*?(Next Jackpot:)/i, "$1");
-  }
-  return null;
-}
-
-function extractNumbersFromText(text) {
-  // pulls integers like 3 7 16 17 31 33 25 etc
-  const matches = text.match(/\b\d+\b/g);
-  return matches ? matches.map(Number) : [];
-}
-
-function parseSingleDraw($, nodes) {
-  const allText = nodes.map(n => $(n).text()).join("\n");
-  const nums = extractNumbersFromText(allText);
-
-  // Lotto & Super Lotto on this page appear as 6 main + 1 bonus
-  // If we have >=7 numbers, treat last as bonus
-  let numbers = nums;
-  let bonus = null;
-
-  if (nums.length >= 7) {
-    numbers = nums.slice(0, 6);
-    bonus = nums[6];
-  } else if (nums.length >= 6) {
-    numbers = nums.slice(0, 6);
+  if (!$cash.length) {
+    return { date: null, latest: null, draws: [] };
   }
 
-  return { numbers, bonus };
-}
-
-function parseMultiDraw($, nodes) {
-  // Cash Pot format repeats labels like EARLYBIRD/MORNING/MIDDAY etc then a number line
-  const textLines = [];
-  for (const n of nodes) {
-    const t = $(n).text().replace(/\s+/g, " ").trim();
-    if (t) textLines.push(t);
-  }
-
-  // Build draw entries by scanning lines:
-  // We look for known draw labels and then the next numeric token
-  const drawLabels = [
-    "EARLYBIRD",
-    "MORNING",
-    "MIDDAY",
-    "MIDAFTERNOON",
-    "DRIVETIME",
-    "EVENING",
-  ];
+  const d = parseDateFromTimeTag($, $cash);
 
   const draws = [];
-  for (let i = 0; i < textLines.length; i++) {
-    const line = textLines[i];
-    const hit = drawLabels.find(lbl => line.toUpperCase().startsWith(lbl));
-    if (!hit) continue;
+  // Each draw has .numbers_title_with_b then the next .lotto_numbers
+  $cash.find(".numbers_title_with_b").each((_, el) => {
+    const $title = $(el);
+    const titleText = normalizeText($title.text()); // e.g. "EARLYBIRD 8:30AM #37097"
+    const drawName = normalizeText($title.find("b").first().text()) || null;
 
-    // Find the next line(s) that contain a number or "?"
-    let value = null;
-    for (let j = i + 1; j < Math.min(i + 6, textLines.length); j++) {
-      const candidate = textLines[j];
-      const m = candidate.match(/\b(\d+)\b/);
-      if (m) {
-        value = Number(m[1]);
-        break;
-      }
-      if (candidate.includes("?")) {
-        value = null;
-        break;
-      }
-    }
+    const drawNo = normalizeText($title.find(".draw_no").first().text()).replace("#", "") || null;
 
-    draws.push({ draw: hit, value });
-  }
+    // Try to extract time (whatever is between draw name and draw no)
+    // Example HTML: "<b>EARLYBIRD</b>  8:30AM <span class='draw_no'>#37097</span>"
+    const titleClone = $title.clone();
+    titleClone.find(".draw_no").remove();
+    titleClone.find("b").remove();
+    const timeText = normalizeText(titleClone.text()) || null;
 
-  // Pick the most recent completed draw (last draw with a number)
-  const latestComplete = [...draws].reverse().find(d => typeof d.value === "number") || null;
+    const $nums = $title.next(".lotto_numbers");
+    if (!$nums.length) return;
 
-  return { draws, latestComplete };
+    // First numeric ball (may be "?" if not drawn)
+    const number = normalizeText($nums.find(".lotto_no_r, .lotto_no_w").first().text()) || null;
+
+    // Second item in that row is usually the “thing” name (Egg, Married Woman, etc.)
+    // It uses class lotto_plus2 on site.
+    const pickName =
+      normalizeText($nums.find(".lotto_plus2").first().text()) ||
+      null;
+
+    // Colors (gold/red/white) appear as text in elements like .lotto_no_gold / .lotto_no_red / .lotto_no_white
+    const colors = [];
+    $nums
+      .find(".lotto_no_gold, .lotto_no_red, .lotto_no_white")
+      .each((__, c) => {
+        const col = normalizeText($(c).text());
+        if (col) colors.push(col);
+      });
+
+    draws.push({
+      draw: drawName,     // EARLYBIRD, MORNING, etc.
+      time: timeText,     // 8:30AM, 10:30AM, 1PM, etc.
+      draw_no: drawNo,    // 37097, etc. (null for evening until posted)
+      number: number,     // "4" or "?"
+      name: pickName,     // "Egg" or null
+      colors: colors.length ? colors : null,
+      raw: titleText || null,
+    });
+  });
+
+  // latest = most recent completed draw with a real number (not "?")
+  const latest = [...draws]
+    .reverse()
+    .find((x) => x.number && x.number !== "?" && x.draw_no);
+
+  return {
+    date: d.iso,
+    latest: latest
+      ? { draw: latest.draw, time: latest.time, draw_no: latest.draw_no, number: latest.number, name: latest.name, colors: latest.colors }
+      : null,
+    draws,
+  };
 }
 
-async function updateLottery() {
-  const html = await fetchHtml(SOURCE_URL);
+function parseLottoBlock($, headingText) {
+  // Finds the "Lotto Result" or "Super Lotto Result" blocks in the "Today Results" section.
+  const $block = $(`h2:contains('${headingText}')`).closest(".v2_lotto_con").first();
+  if (!$block.length) {
+    return { date: null, numbers: [], bonus: null, next_jackpot: null };
+  }
+
+  const d = parseDateFromTimeTag($, $block);
+
+  // numbers are red balls (bbb1.. etc) inside .lotto_numbers
+  const numbers = [];
+  $block.find(".lotto_numbers .lotto_no_r").each((_, el) => {
+    const v = normalizeText($(el).text());
+    if (v && v !== "+") numbers.push(v);
+  });
+
+  // bonus number is sometimes styled "lotto_no_hot" (after a "+")
+  const bonus = normalizeText($block.find(".lotto_numbers .lotto_no_hot").first().text()) || null;
+
+  // Next Jackpot appears in ".lotto_jackpot" as text like "Next Jackpot: $39M"
+  const jackpotText = normalizeText($block.find(".lotto_jackpot").text());
+  const next_jackpot = jackpotText
+    ? parseMoney(jackpotText.replace(/.*Next Jackpot:\s*/i, "").split("View Jackpot Tracker")[0])
+    : null;
+
+  return { date: d.iso, numbers, bonus, next_jackpot };
+}
+
+async function main() {
+  const res = await fetch(SOURCE_URL, {
+    headers: {
+      "user-agent":
+        "Mozilla/5.0 (compatible; sv-results-kiosk/1.0; +https://github.com/)",
+    },
+  });
+
+  if (!res.ok) {
+    throw new Error(`Fetch failed ${res.status}: ${res.statusText}`);
+  }
+
+  const html = await res.text();
   const $ = cheerio.load(html);
 
-  const output = {
+  const cash = parseCashPotToday($);
+  const lotto = parseLottoBlock($, "Lotto Result");
+  const superLotto = parseLottoBlock($, "Super Lotto Result");
+
+  const out = {
     source: SOURCE_URL,
-    last_updated_utc: new Date().toISOString(),
-    games: {},
+    last_updated_utc: nowUtcIso(),
+    games: {
+      cash_pot: {
+        label: "Cash Pot",
+        date: cash.date,
+        latest: cash.latest,
+        draws: cash.draws,
+      },
+      lotto: {
+        label: "Lotto",
+        date: lotto.date,
+        numbers: lotto.numbers,
+        bonus: lotto.bonus,
+        next_jackpot: lotto.next_jackpot,
+      },
+      super_lotto: {
+        label: "Super Lotto",
+        date: superLotto.date,
+        numbers: superLotto.numbers,
+        bonus: superLotto.bonus,
+        next_jackpot: superLotto.next_jackpot,
+      },
+    },
   };
 
-  for (const g of GAMES) {
-    const nodes = getSectionNodes($, g.heading);
-    if (!nodes) {
-      output.games[g.key] = { label: g.label, error: `Section not found: ${g.heading}` };
-      continue;
-    }
-
-    const dateText = extractDateFromNodes($, nodes);
-    const nextJackpot = extractNextJackpotFromNodes($, nodes);
-
-    if (g.type === "single") {
-      const draw = parseSingleDraw($, nodes);
-      output.games[g.key] = {
-        label: g.label,
-        date: dateText,
-        numbers: draw.numbers,
-        bonus: draw.bonus,
-        next_jackpot: nextJackpot,
-      };
-    } else {
-      const multi = parseMultiDraw($, nodes);
-      output.games[g.key] = {
-        label: g.label,
-        date: dateText,
-        latest: multi.latestComplete, // { draw, value }
-        draws: multi.draws,           // array
-      };
-    }
-  }
-
-  fs.writeFileSync("data/lottery_previews.json", JSON.stringify(output, null, 2));
-  console.log("Updated data/lottery_previews.json");
+  fs.mkdirSync(path.dirname(OUT_FILE), { recursive: true });
+  fs.writeFileSync(OUT_FILE, JSON.stringify(out, null, 2), "utf8");
+  console.log(`Updated: ${OUT_FILE}`);
 }
 
-updateLottery().catch((err) => {
-  console.error("Update failed:", err);
+main().catch((err) => {
+  console.error(err);
   process.exit(1);
 });
