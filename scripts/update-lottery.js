@@ -1,151 +1,188 @@
-// scripts/update-lottery.js
-// Robust text/regex parsing (like your working Python RSS script)
+/* scripts/update-lottery.js
+   Supreme Ventures kiosk preview builder (JamaicaIndex "today" page)
+   - CommonJS (no ESM import/export issues)
+   - Output keys: cash_pot, lotto, super_lotto (plus games mirror)
+*/
 
-import fs from "fs";
+const fs = require("fs");
+const path = require("path");
+const cheerio = require("cheerio");
 
-const JI_TODAY_URL =
-  "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today";
+const SOURCE_URL = "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today";
+const OUT_FILE = path.join(__dirname, "..", "data", "lottery_previews.json");
 
-const OUT_PATH = "data/lottery_previews.json";
+// Draw times we care about
+const CASH_POT_TIMES = ["EARLYBIRD", "MORNING", "MIDDAY", "MIDAFTERNOON", "DRIVETIME", "EVENING"];
 
-const DRAW_ORDER = [
-  "MORNING",
-  "MIDDAY",
-  "MIDAFTERNOON",
-  "DRIVETIME",
-  "EVENING",
-  "EARLYBIRD",
-];
-
-// Extract: #37091 15 February 2026, Sunday Cash Pot MORNING 20 Sick Person white red
-const CASH_POT_RE =
-  /#(?<drawNo>\d+)\s+(?<date>\d{1,2}\s+[A-Za-z]+\s+\d{4}),\s+[A-Za-z]+\s+Cash Pot\s+(?<time>EARLYBIRD|MORNING|MIDDAY|MIDAFTERNOON|DRIVETIME|EVENING)\s+(?<num>\d{1,2})\s+(?<label>[A-Za-z ]+?)(?:\s+(?:white|red|gold|green|blue|black|pink|yellow|orange|brown|purple|silver)\b.*)?$/gim;
-
-function normalizeText(html) {
-  // Strip tags to text-ish format without needing cheerio
-  const withoutScripts = html
-    .replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, " ")
-    .replace(/<style\b[^<]*(?:(?!<\/style>)<[^<]*)*<\/style>/gi, " ");
-
-  const text = withoutScripts
-    .replace(/<br\s*\/?>/gi, "\n")
-    .replace(/<\/(p|div|li|tr|h\d)>/gi, "\n")
-    .replace(/<[^>]+>/g, " ")
-    .replace(/\r/g, "")
-    .replace(/[ \t]+/g, " ")
-    .replace(/\n\s+/g, "\n")
-    .replace(/\n{2,}/g, "\n")
-    .trim();
-
-  return text;
+function nowUtcIso() {
+  return new Date().toISOString();
 }
 
-function pickLatestByOrder(draws) {
-  // Most recent = last draw present in DRAW_ORDER sequence
-  const byTime = new Map();
-  for (const d of draws) byTime.set(d.time, d);
+function normalizeSpaces(s) {
+  return (s || "").replace(/\s+/g, " ").trim();
+}
 
-  let latest = null;
-  for (const t of DRAW_ORDER) {
-    if (byTime.has(t)) latest = byTime.get(t);
+function extractSectionText(fullText, startMarker, endMarker) {
+  const lower = fullText.toLowerCase();
+  const s = lower.indexOf(startMarker.toLowerCase());
+  if (s === -1) return "";
+  const e = endMarker ? lower.indexOf(endMarker.toLowerCase(), s) : -1;
+  return e === -1 ? fullText.slice(s) : fullText.slice(s, e);
+}
+
+function parseDateFromSection(sectionText) {
+  // Matches: "Monday | 16 February 2026" or "Saturday | 14 February 2026"
+  const m = sectionText.match(/\b(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s*\|\s*(\d{1,2}\s+[A-Za-z]+\s+\d{4})\b/i);
+  if (!m) return null;
+  return normalizeSpaces(`${m[1]} | ${m[2]}`);
+}
+
+function parseCashPot(sectionText) {
+  // We expect lines like:
+  // "EARLYBIRD 8:30AM #37103 30 Fish + white + white"
+  // We'll pull: time, draw_no, number, label
+
+  const dateLine = parseDateFromSection(sectionText);
+
+  // Global regex that is tolerant of extra tokens between fields
+  const re = new RegExp(
+    `\\b(${CASH_POT_TIMES.join("|")})\\b[\\s\\S]{0,80}?#(\\d+)[\\s\\S]{0,80}?\\b(\\d{1,2})\\b\\s+([A-Za-z][A-Za-z ]{0,30})`,
+    "gi"
+  );
+
+  const draws = [];
+  for (const m of sectionText.matchAll(re)) {
+    const time = (m[1] || "").toUpperCase();
+    const draw_no = m[2] || null;
+    const number = m[3] ? parseInt(m[3], 10) : null;
+    const label = normalizeSpaces(m[4]);
+
+    // Basic sanity: Cash Pot numbers are 1–36, but keep tolerant
+    if (!time || !draw_no || !number || !label) continue;
+
+    draws.push({ time, number, label, draw_no });
   }
-  return latest;
+
+  // If JamaicaIndex repeats blocks, keep only the first occurrence per time in order,
+  // BUT still set "latest" as the last draw found overall.
+  const latest = draws.length ? draws[draws.length - 1] : null;
+
+  const note = latest ? `${latest.label.toUpperCase()} • #${latest.draw_no}` : "";
+
+  return {
+    title: "Cash Pot",
+    drawDate: dateLine ? dateLine.split("|")[1].trim() : null, // "16 February 2026"
+    drawTime: latest ? latest.time : null,
+    numbers: latest ? [latest.number] : [],
+    bonus: null,
+    note,
+    // Keep raw structure too (useful for debugging / history view)
+    raw: {
+      dateLine,
+      latest,
+      draws
+    }
+  };
+}
+
+function parseLottoLike(sectionText, gameName) {
+  // Lotto section text often contains:
+  // "Saturday | 14 February 2026 7 8 18 31 32 34 + 24 Next Jackpot: $39M"
+  const dateLine = parseDateFromSection(sectionText);
+
+  // Limit number parsing to before "Next Jackpot" to avoid picking digits from jackpot amounts
+  const cutoffIdx = sectionText.toLowerCase().indexOf("next jackpot");
+  const numberZone = cutoffIdx >= 0 ? sectionText.slice(0, cutoffIdx) : sectionText;
+
+  // Pull ALL small integers in order from that zone
+  const nums = (numberZone.match(/\b\d{1,2}\b/g) || []).map(n => parseInt(n, 10));
+
+  // Lotto: 6 + bonus, Super Lotto: 5 + bonus
+  const mainCount = gameName.toLowerCase().includes("super") ? 5 : 6;
+
+  const main = nums.slice(0, mainCount);
+  const bonus = nums.length > mainCount ? nums[mainCount] : null;
+
+  // Jackpot string
+  let jackpot = null;
+  const jm = sectionText.match(/Next Jackpot:\s*([$€£]?\s*[0-9.,]+(?:\s*[MK])?)/i);
+  if (jm) jackpot = normalizeSpaces(jm[1]).replace(/\s+/g, "");
+
+  const note = jackpot ? `Next Jackpot: ${jackpot}` : "";
+
+  return {
+    title: gameName,
+    drawDate: dateLine ? dateLine.split("|")[1].trim() : null,
+    drawTime: null,
+    numbers: main.filter(n => Number.isFinite(n)),
+    bonus: Number.isFinite(bonus) ? bonus : null,
+    note,
+    raw: {
+      dateLine,
+      jackpot
+    }
+  };
+}
+
+async function fetchHtml(url) {
+  // Node 20 has global fetch
+  const res = await fetch(url, {
+    headers: {
+      "User-Agent": "Mozilla/5.0 (GitHub Actions; SV kiosk preview generator)"
+    }
+  });
+  if (!res.ok) throw new Error(`Fetch failed: ${res.status} ${res.statusText}`);
+  return await res.text();
 }
 
 async function main() {
-  const res = await fetch(JI_TODAY_URL, {
-    headers: {
-      "User-Agent": "Mozilla/5.0 (GitHub Actions lottery preview updater)",
-      "Accept": "text/html,application/xhtml+xml",
-    },
-  });
+  const html = await fetchHtml(SOURCE_URL);
 
-  if (!res.ok) throw new Error(`Fetch failed: ${res.status} ${res.statusText}`);
-  const html = await res.text();
-  const text = normalizeText(html);
+  // Use cheerio to get a stable “document text” (similar to your RSS approach)
+  const $ = cheerio.load(html);
+  const fullText = $("body").text().replace(/\r/g, "");
+  const text = fullText.split("\n").map(l => l.trim()).filter(Boolean).join("\n");
 
-  // Parse Cash Pot draws
-  const cashPotDraws = [];
-  let m;
-  while ((m = CASH_POT_RE.exec(text)) !== null) {
-    const g = m.groups || {};
-    const time = String(g.time || "").toUpperCase();
-    const num = parseInt(g.num, 10);
+  // Extract sections by headings
+  const cashPotText = extractSectionText(text, "Cash Pot Result", "Lotto Result");
+  const lottoText = extractSectionText(text, "Lotto Result", "Super Lotto Result");
+  const superLottoText = extractSectionText(text, "Super Lotto Result", null);
 
-    if (!time || Number.isNaN(num)) continue;
+  const cash_pot = cashPotText ? parseCashPot(cashPotText) : null;
+  const lotto = lottoText ? parseLottoLike(lottoText, "Lotto") : null;
+  const super_lotto = superLottoText ? parseLottoLike(superLottoText, "Super Lotto") : null;
 
-    cashPotDraws.push({
-      draw_no: g.drawNo || null,
-      time,
-      number: num,
-      label: (g.label || "").trim(),
-      raw: m[0].trim(),
-    });
-  }
+  // Build final output in the shape your kiosk expects:
+  // json.cash_pot / json.lotto / json.super_lotto
+  // plus a mirror json.games for compatibility
+  const out = {
+    source: SOURCE_URL,
+    last_updated_utc: nowUtcIso(),
 
-  // Deduplicate by time (keep latest occurrence)
-  const cashPotByTime = new Map();
-  for (const d of cashPotDraws) cashPotByTime.set(d.time, d);
-  const cashPotUnique = [...cashPotByTime.values()].sort(
-    (a, b) => DRAW_ORDER.indexOf(a.time) - DRAW_ORDER.indexOf(b.time)
-  );
+    // ✅ kiosk-friendly
+    cash_pot,
+    lotto,
+    super_lotto,
 
-  const latestCashPot = pickLatestByOrder(cashPotUnique);
-
-  // Try to get date from any cash pot match
-  const dateMatch = cashPotUnique.length ? cashPotUnique[0].raw : null;
-  const dateParsed = cashPotUnique.length ? (cashPotUnique[0].raw.match(/(\d{1,2}\s+[A-Za-z]+\s+\d{4})/) || [])[1] : null;
-
-  const output = {
-    source: JI_TODAY_URL,
-    last_updated_utc: new Date().toISOString(),
+    // ✅ backward compatible
     games: {
-      cash_pot: {
-        label: "Cash Pot",
-        date: dateParsed || null,
-        latest: latestCashPot
-          ? {
-              time: latestCashPot.time,
-              number: latestCashPot.number,
-              label: latestCashPot.label,
-              draw_no: latestCashPot.draw_no,
-            }
-          : null,
-        draws: cashPotUnique.map((d) => ({
-          time: d.time,
-          number: d.number,
-          label: d.label,
-          draw_no: d.draw_no,
-        })),
-      },
-      lotto: {
-        label: "Lotto",
-        date: null,
-        numbers: [],
-        bonus: null,
-        next_jackpot: null,
-      },
-      super_lotto: {
-        label: "Super Lotto",
-        date: null,
-        numbers: [],
-        bonus: null,
-        next_jackpot: null,
-      },
-    },
+      cash_pot,
+      lotto,
+      super_lotto
+    }
   };
 
-  fs.mkdirSync("data", { recursive: true });
-  fs.writeFileSync(OUT_PATH, JSON.stringify(output, null, 2), "utf-8");
+  fs.mkdirSync(path.dirname(OUT_FILE), { recursive: true });
+  fs.writeFileSync(OUT_FILE, JSON.stringify(out, null, 2), "utf-8");
 
-  // Helpful action log
-  console.log("DATE:", output.games.cash_pot.date);
-  console.log("CASH POT DRAWS:", output.games.cash_pot.draws.length);
-  console.log("CASH POT LATEST:", output.games.cash_pot.latest);
-  console.log("Wrote", OUT_PATH);
+  // Helpful logs in Actions
+  console.log("Wrote:", OUT_FILE);
+  console.log("Cash Pot:", cash_pot?.drawDate, cash_pot?.drawTime, cash_pot?.numbers?.[0], cash_pot?.note);
+  console.log("Lotto:", lotto?.drawDate, lotto?.numbers?.join(","), "bonus:", lotto?.bonus, lotto?.note);
+  console.log("Super Lotto:", super_lotto?.drawDate, super_lotto?.numbers?.join(","), "bonus:", super_lotto?.bonus, super_lotto?.note);
 }
 
-main().catch((err) => {
-  console.error(err);
+main().catch(err => {
+  console.error("Update failed:", err);
   process.exit(1);
 });
