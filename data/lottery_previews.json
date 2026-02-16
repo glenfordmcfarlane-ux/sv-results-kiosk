@@ -1,40 +1,40 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-02-16T11:10:13.596Z",
+  "last_updated_utc": "2026-02-16T14:13:44.325Z",
   "games": {
     "cash_pot": {
       "label": "Cash Pot",
-      "date": "13 February 2026",
+      "date": "14 February 2026",
       "latest": {
         "time": "EARLYBIRD",
-        "number": 11,
-        "label": "Dog",
-        "draw_no": "37083"
+        "number": 22,
+        "label": "White Woman",
+        "draw_no": "37092"
       },
       "draws": [
         {
           "time": "MORNING",
-          "number": 1,
-          "label": "Duppy",
-          "draw_no": "28313"
+          "number": 20,
+          "label": "Sick Person",
+          "draw_no": "28318"
         },
         {
           "time": "MIDDAY",
-          "number": 23,
-          "label": "Black Man",
-          "draw_no": "37080"
+          "number": 19,
+          "label": "Silver Money",
+          "draw_no": "37086"
         },
         {
           "time": "MIDAFTERNOON",
-          "number": 30,
-          "label": "Fish",
-          "draw_no": "37081"
+          "number": 24,
+          "label": "Fresh Water",
+          "draw_no": "37087"
         },
         {
           "time": "DRIVETIME",
-          "number": 14,
-          "label": "Mouth",
-          "draw_no": "37082"
+          "number": 24,
+          "label": "Fresh Water",
+          "draw_no": "37088"
         },
         {
           "time": "EVENING",
@@ -44,9 +44,9 @@
         },
         {
           "time": "EARLYBIRD",
-          "number": 11,
-          "label": "Dog",
-          "draw_no": "37083"
+          "number": 22,
+          "label": "White Woman",
+          "draw_no": "37092"
         }
       ]
     },
