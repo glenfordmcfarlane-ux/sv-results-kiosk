@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-02-16T00:23:09.310Z",
+  "last_updated_utc": "2026-02-16T05:44:36.243Z",
   "games": {
     "cash_pot": {
       "label": "Cash Pot",
@@ -20,21 +20,27 @@
         },
         {
           "time": "MIDDAY",
-          "number": 19,
-          "label": "Silver Money",
-          "draw_no": "28314"
+          "number": 23,
+          "label": "Black Man",
+          "draw_no": "37080"
         },
         {
           "time": "MIDAFTERNOON",
-          "number": 24,
-          "label": "Fresh Water",
-          "draw_no": "28315"
+          "number": 30,
+          "label": "Fish",
+          "draw_no": "37081"
         },
         {
           "time": "DRIVETIME",
-          "number": 24,
-          "label": "Fresh Water",
-          "draw_no": "12094"
+          "number": 14,
+          "label": "Mouth",
+          "draw_no": "37082"
+        },
+        {
+          "time": "EVENING",
+          "number": 30,
+          "label": "Fish",
+          "draw_no": "37101"
         },
         {
           "time": "EARLYBIRD",
