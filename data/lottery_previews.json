@@ -1,68 +1,92 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-02-16T14:13:44.325Z",
+  "last_updated_utc": "2026-02-16T14:33:58.788Z",
+  "cash_pot": {
+    "title": "Cash Pot",
+    "drawDate": null,
+    "drawTime": null,
+    "numbers": [],
+    "bonus": null,
+    "note": "",
+    "raw": {
+      "dateLine": null,
+      "latest": null,
+      "draws": []
+    }
+  },
+  "lotto": {
+    "title": "Lotto",
+    "drawDate": null,
+    "drawTime": null,
+    "numbers": [
+      14,
+      24
+    ],
+    "bonus": null,
+    "note": "Next Jackpot: $39M",
+    "raw": {
+      "dateLine": null,
+      "jackpot": "$39M"
+    }
+  },
+  "super_lotto": {
+    "title": "Super Lotto",
+    "drawDate": null,
+    "drawTime": null,
+    "numbers": [
+      13,
+      10
+    ],
+    "bonus": null,
+    "note": "Next Jackpot: $316M",
+    "raw": {
+      "dateLine": null,
+      "jackpot": "$316M"
+    }
+  },
   "games": {
     "cash_pot": {
-      "label": "Cash Pot",
-      "date": "14 February 2026",
-      "latest": {
-        "time": "EARLYBIRD",
-        "number": 22,
-        "label": "White Woman",
-        "draw_no": "37092"
-      },
-      "draws": [
-        {
-          "time": "MORNING",
-          "number": 20,
-          "label": "Sick Person",
-          "draw_no": "28318"
-        },
-        {
-          "time": "MIDDAY",
-          "number": 19,
-          "label": "Silver Money",
-          "draw_no": "37086"
-        },
-        {
-          "time": "MIDAFTERNOON",
-          "number": 24,
-          "label": "Fresh Water",
-          "draw_no": "37087"
-        },
-        {
-          "time": "DRIVETIME",
-          "number": 24,
-          "label": "Fresh Water",
-          "draw_no": "37088"
-        },
-        {
-          "time": "EVENING",
-          "number": 30,
-          "label": "Fish",
-          "draw_no": "37101"
-        },
-        {
-          "time": "EARLYBIRD",
-          "number": 22,
-          "label": "White Woman",
-          "draw_no": "37092"
-        }
-      ]
+      "title": "Cash Pot",
+      "drawDate": null,
+      "drawTime": null,
+      "numbers": [],
+      "bonus": null,
+      "note": "",
+      "raw": {
+        "dateLine": null,
+        "latest": null,
+        "draws": []
+      }
     },
     "lotto": {
-      "label": "Lotto",
-      "date": null,
-      "numbers": [],
+      "title": "Lotto",
+      "drawDate": null,
+      "drawTime": null,
+      "numbers": [
+        14,
+        24
+      ],
       "bonus": null,
-      "next_jackpot": null
+      "note": "Next Jackpot: $39M",
+      "raw": {
+        "dateLine": null,
+        "jackpot": "$39M"
+      }
     },
     "super_lotto": {
-      "label": "Super Lotto",
-      "date": null,
-      "numbers": [],
+      "title": "Super Lotto",
+      "drawDate": null,
+      "drawTime": null,
+      "numbers": [
+        13,
+        10
+      ],
       "bonus": null,
-      "next_jackpot": null
+      "note": "Next Jackpot: $316M",
+      "raw": {
+        "dateLine": null,
+        "jackpot": "$316M"
+      }
     }
   }
 }
