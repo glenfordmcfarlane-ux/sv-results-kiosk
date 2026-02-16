@@ -1,92 +1,40 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-02-16T14:33:58.788Z",
+  "last_updated_utc": "2026-02-16T15:26:53.337Z",
   "cash_pot": {
     "title": "Cash Pot",
-    "drawDate": null,
-    "drawTime": null,
-    "numbers": [],
-    "bonus": null,
-    "note": "",
-    "raw": {
-      "dateLine": null,
-      "latest": null,
-      "draws": []
-    }
+    "drawDate": "Monday",
+    "drawTime": "EARLYBIRD",
+    "numbers": [
+      "30"
+    ],
+    "note": ""
   },
   "lotto": {
     "title": "Lotto",
-    "drawDate": null,
-    "drawTime": null,
+    "drawDate": "Saturday",
     "numbers": [
-      14,
-      24
+      "7",
+      "8",
+      "18",
+      "31",
+      "32",
+      "34"
     ],
-    "bonus": null,
-    "note": "Next Jackpot: $39M",
-    "raw": {
-      "dateLine": null,
-      "jackpot": "$39M"
-    }
+    "bonus": "24",
+    "note": ""
   },
   "super_lotto": {
     "title": "Super Lotto",
-    "drawDate": null,
-    "drawTime": null,
+    "drawDate": "Friday</b> | 13 February 2026",
     "numbers": [
-      13,
-      10
+      "1",
+      "2",
+      "9",
+      "20",
+      "24"
     ],
-    "bonus": null,
-    "note": "Next Jackpot: $316M",
-    "raw": {
-      "dateLine": null,
-      "jackpot": "$316M"
-    }
-  },
-  "games": {
-    "cash_pot": {
-      "title": "Cash Pot",
-      "drawDate": null,
-      "drawTime": null,
-      "numbers": [],
-      "bonus": null,
-      "note": "",
-      "raw": {
-        "dateLine": null,
-        "latest": null,
-        "draws": []
-      }
-    },
-    "lotto": {
-      "title": "Lotto",
-      "drawDate": null,
-      "drawTime": null,
-      "numbers": [
-        14,
-        24
-      ],
-      "bonus": null,
-      "note": "Next Jackpot: $39M",
-      "raw": {
-        "dateLine": null,
-        "jackpot": "$39M"
-      }
-    },
-    "super_lotto": {
-      "title": "Super Lotto",
-      "drawDate": null,
-      "drawTime": null,
-      "numbers": [
-        13,
-        10
-      ],
-      "bonus": null,
-      "note": "Next Jackpot: $316M",
-      "raw": {
-        "dateLine": null,
-        "jackpot": "$316M"
-      }
-    }
+    "bonus": "10",
+    "note": ""
   }
 }
