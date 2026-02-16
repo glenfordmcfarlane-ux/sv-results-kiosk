@@ -3,193 +3,231 @@ import fs from "fs/promises";
 const SOURCE_URL =
   "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today";
 
-const UA =
-  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36";
+async function fetchHTML(url) {
+  const res = await fetch(url, {
+    headers: { "User-Agent": "Mozilla/5.0" },
+    cache: "no-store",
+  });
+  if (!res.ok) throw new Error(`HTTP ${res.status} fetching ${url}`);
+  return await res.text();
+}
 
 function extractBetween(text, start, end) {
   const s = text.indexOf(start);
   if (s === -1) return null;
   const e = text.indexOf(end, s + start.length);
   if (e === -1) return null;
-  return text.substring(s, e);
+  return text.substring(s + start.length, e);
 }
 
-function cleanText(s) {
-  return (s || "")
-    .replace(/&nbsp;/g, " ")
-    .replace(/&amp;/g, "&")
-    .replace(/<[^>]*>/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-function pickFirstMatch(section, regex) {
-  const m = section.match(regex);
-  return m ? m[0] : null;
-}
-
-function pickCapture(section, regex, idx = 1) {
-  const m = section.match(regex);
-  return m ? m[idx] : null;
-}
-
-/**
- * Pulls all 1–2 digit numbers from “ball-like” divs/spans (more reliable than >(\d{1,2})</div> globally).
- * We still keep it regex-only (no deps), but constrain to tags that commonly wrap the balls.
- */
-function extractBallNumbers(section) {
-  const matches = [...section.matchAll(/<(?:div|span)[^>]*>\s*(\d{1,2})\s*<\/(?:div|span)>/gi)];
-  return matches.map((m) => m[1]);
-}
-
-async function fetchHTML(url) {
-  const ctrl = new AbortController();
-  const t = setTimeout(() => ctrl.abort(), 25_000);
-
-  try {
-    const res = await fetch(url, {
-      headers: { "User-Agent": UA, "Accept": "text/html" },
-      signal: ctrl.signal,
-      cache: "no-store",
-    });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    return await res.text();
-  } finally {
-    clearTimeout(t);
+// Helps keep Lotto/Super parsing from grabbing random numbers
+function uniqueKeepOrder(arr) {
+  const seen = new Set();
+  const out = [];
+  for (const x of arr) {
+    const k = String(x).trim();
+    if (!k) continue;
+    if (!seen.has(k)) {
+      seen.add(k);
+      out.push(k);
+    }
   }
+  return out;
 }
 
-/**
- * Common date formats on JamaicaIndex look like:
- * "Monday | 16 February 2026"
- * "Saturday | 14 February 2026"
- */
-function extractFullDate(section) {
-  // Prefer the exact "Day | DD Month YYYY" pattern
-  const d = pickCapture(
-    section,
-    /\b(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\b\s*\|\s*(\d{1,2}\s+[A-Za-z]+\s+\d{4})/i,
-    0
+function normalizeSpaces(s) {
+  return String(s || "").replace(/\s+/g, " ").trim();
+}
+
+function matchFullDate(section) {
+  // Matches: "Monday | 16 February 2026" or "Friday | 13 February 2026"
+  const m = section.match(
+    /(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s*\|\s*\d{1,2}\s+[A-Za-z]+\s+\d{4}/
   );
-  if (d) return cleanText(d);
-
-  // Fallback: any "DD Month YYYY"
-  const fallback = pickCapture(section, /\b(\d{1,2}\s+[A-Za-z]+\s+\d{4})\b/i, 1);
-  return fallback ? cleanText(fallback) : "";
+  return m ? normalizeSpaces(m[0]) : "";
 }
 
-function extractJackpot(section) {
-  // e.g. "Next Jackpot: $39M" or "$316M"
-  const m = pickCapture(section, /Next\s+Jackpot:\s*(\$\s?[0-9.,]+[A-Za-z]*)/i, 1);
-  return m ? `Next Jackpot: ${m.replace(/\s+/g, "")}` : "";
+/* ===================== CASH POT ===================== */
+
+const CASH_TIMES = [
+  "EARLYBIRD",
+  "MORNING",
+  "MIDDAY",
+  "MIDAFTERNOON",
+  "DRIVETIME",
+  "EVENING",
+];
+
+function splitByCashTime(section) {
+  // Find each time keyword occurrence index, slice into chunks
+  const hits = [];
+  for (const t of CASH_TIMES) {
+    const re = new RegExp(`\\b${t}\\b`, "g");
+    let m;
+    while ((m = re.exec(section)) !== null) {
+      hits.push({ t, i: m.index });
+    }
+  }
+  hits.sort((a, b) => a.i - b.i);
+  const chunks = [];
+  for (let k = 0; k < hits.length; k++) {
+    const start = hits[k].i;
+    const end = k + 1 < hits.length ? hits[k + 1].i : section.length;
+    chunks.push({ time: hits[k].t, html: section.slice(start, end) });
+  }
+  return chunks;
 }
 
-function extractCashPotDrawTime(section) {
-  // Use the draw label (EARLYBIRD/MORNING/...) if present
-  const m = pickCapture(section, /\b(EARLYBIRD|MORNING|MIDDAY|MIDAFTERNOON|DRIVETIME|EVENING)\b/i, 1);
-  return m ? m.toUpperCase() : "";
+function parseCashColors(chunkHtml) {
+  // JamaicaIndex shows little boxes with text like "white" "red"
+  const colors = [];
+  const re = />\s*(white|red|blue|green|yellow|black)\s*</gi;
+  let m;
+  while ((m = re.exec(chunkHtml)) !== null) {
+    colors.push(m[1].toLowerCase());
+    if (colors.length >= 2) break;
+  }
+  // If not found, default to white/white (your desired display)
+  while (colors.length < 2) colors.push("white");
+  return colors.slice(0, 2);
 }
 
-function scrapeCashPot(html) {
-  const sec = extractBetween(html, "Cash Pot Result", "Cash Pot Result History");
-  if (!sec) return null;
+function parseCashRow(timeKey, chunkHtml) {
+  // clock time like 8:30AM, 10:30AM
+  const atMatch = chunkHtml.match(/\b\d{1,2}:\d{2}\s*(AM|PM)\b/i);
+  const drawNoMatch = chunkHtml.match(/#\s*(\d{3,})/);
 
-  const drawDate = extractFullDate(sec);
+  // First "number" box is the Cash Pot number
+  const numberMatch = chunkHtml.match(/>\s*(\d{1,2})\s*<\/div>/);
 
-  // The first ball number on Cash Pot sections is usually the result number.
-  const balls = extractBallNumbers(sec);
-  const number = balls.length ? balls[0] : null;
+  // Label appears near the number (Fish, Married, Goat, etc.)
+  // Try to capture a word/phrase after the number div
+  let label = "";
+  if (numberMatch) {
+    const idx = chunkHtml.indexOf(numberMatch[0]);
+    const tail = idx >= 0 ? chunkHtml.slice(idx + numberMatch[0].length) : "";
+    const labelMatch = tail.match(/>\s*([A-Za-z][A-Za-z ]{1,30})\s*</);
+    if (labelMatch) label = normalizeSpaces(labelMatch[1]);
+  }
 
-  // Try to capture the “label” like Fish/Goat/etc if present (based on the site layout)
-  // Keep it optional so we never fail parsing if it changes.
-  const label = (() => {
-    // heuristics: a short word near the number row; keep safe
-    const txt = cleanText(sec);
-    // Look for common pattern where the label appears close to the number; not guaranteed.
-    // If this returns junk, it will be empty and your UI still works.
-    const m = txt.match(/\b(Fish|Goat|Dog|Race Horse|White Woman|Black Man|Married|Sick Person|Mouth|Duppy|Fresh Water)\b/i);
-    return m ? m[0] : "";
-  })();
+  const colors = parseCashColors(chunkHtml);
 
-  // Draw number like "#37103"
-  const drawNo = pickCapture(sec, /#\s?(\d{4,6})/i, 1);
+  if (!numberMatch) return null;
 
   return {
-    title: "Cash Pot",
-    drawDate: drawDate,
-    drawTime: extractCashPotDrawTime(sec),
-    numbers: number ? [number] : [],
-    note: [label, drawNo ? `#${drawNo}` : ""].filter(Boolean).join(" • "),
+    time: timeKey,
+    at: atMatch ? atMatch[0].replace(/\s+/g, "") : "", // "8:30AM"
+    draw_no: drawNoMatch ? drawNoMatch[1] : "",
+    number: numberMatch[1],
+    label,
+    colors, // e.g. ["white","white"] or ["white","red"]
   };
 }
 
-function scrapeLotto(html) {
-  const sec = extractBetween(html, "Lotto Result", "Lotto Result History");
-  if (!sec) return null;
+async function scrapeCashPot(html) {
+  const section = extractBetween(html, "Cash Pot Result", "Cash Pot Result History");
+  if (!section) return null;
 
-  const drawDate = extractFullDate(sec);
-  const balls = extractBallNumbers(sec);
+  const drawDate = matchFullDate(section);
 
-  // Lotto = 6 numbers + bonus
-  const main = balls.slice(0, 6);
-  const bonus = balls.length >= 7 ? balls[6] : null;
+  const chunks = splitByCashTime(section);
+  const draws = [];
+  for (const c of chunks) {
+    const row = parseCashRow(c.time, c.html);
+    if (row) draws.push(row);
+  }
 
-  if (main.length < 6) return null;
+  // If JamaicaIndex changes, fail gracefully
+  if (!draws.length) {
+    return {
+      title: "Cash Pot",
+      drawDate,
+      draws: [],
+    };
+  }
+
+  return {
+    title: "Cash Pot",
+    drawDate,
+    draws,
+  };
+}
+
+/* ===================== LOTTO ===================== */
+
+async function scrapeLotto(html) {
+  const section = extractBetween(html, "Lotto Result", "Lotto Result History");
+  if (!section) return null;
+
+  // Date line: "Saturday | 14 February 2026"
+  const drawDate = matchFullDate(section);
+
+  // Pull small result number boxes (keep order, unique)
+  const rawNums = [...section.matchAll(/>\s*(\d{1,2})\s*<\/div>/g)].map((m) => m[1]);
+  const nums = uniqueKeepOrder(rawNums);
+
+  // Lotto: 6 numbers + bonus (7th)
+  if (nums.length < 6) return null;
+
+  const jackpotMatch = section.match(/Next Jackpot:\s*\$[0-9A-Za-z.]+/i);
 
   return {
     title: "Lotto",
     drawDate,
-    drawTime: "",
-    numbers: main,
-    bonus,
-    note: extractJackpot(sec),
+    numbers: nums.slice(0, 6),
+    bonus: nums[6] || null,
+    next_jackpot: jackpotMatch ? normalizeSpaces(jackpotMatch[0].replace(/^Next Jackpot:\s*/i, "")) : null,
   };
 }
 
-function scrapeSuperLotto(html) {
-  const sec = extractBetween(html, "Super Lotto Result", "Super Lotto Result History");
-  if (!sec) return null;
+/* ===================== SUPER LOTTO ===================== */
 
-  const drawDate = extractFullDate(sec);
-  const balls = extractBallNumbers(sec);
+async function scrapeSuperLotto(html) {
+  const section = extractBetween(html, "Super Lotto Result", "Super Lotto Result History");
+  if (!section) return null;
 
-  // Super Lotto = 5 numbers + bonus
-  const main = balls.slice(0, 5);
-  const bonus = balls.length >= 6 ? balls[5] : null;
+  const drawDate = matchFullDate(section);
 
-  if (main.length < 5) return null;
+  const rawNums = [...section.matchAll(/>\s*(\d{1,2})\s*<\/div>/g)].map((m) => m[1]);
+  const nums = uniqueKeepOrder(rawNums);
+
+  // Super Lotto: 5 numbers + bonus (6th)
+  if (nums.length < 5) return null;
+
+  const jackpotMatch = section.match(/Next Jackpot:\s*\$[0-9A-Za-z.]+/i);
 
   return {
     title: "Super Lotto",
     drawDate,
-    drawTime: "",
-    numbers: main,
-    bonus,
-    note: extractJackpot(sec),
+    numbers: nums.slice(0, 5),
+    bonus: nums[5] || null,
+    next_jackpot: jackpotMatch ? normalizeSpaces(jackpotMatch[0].replace(/^Next Jackpot:\s*/i, "")) : null,
   };
 }
 
+/* ===================== RUN ===================== */
+
 async function run() {
-  console.log("Fetching JamaicaIndex…");
+  console.log("Fetching Jamaica Index...");
   const html = await fetchHTML(SOURCE_URL);
 
-  const cashPot = scrapeCashPot(html);
-  const lotto = scrapeLotto(html);
-  const superLotto = scrapeSuperLotto(html);
+  const cash_pot = await scrapeCashPot(html);
+  const lotto = await scrapeLotto(html);
+  const super_lotto = await scrapeSuperLotto(html);
 
   const output = {
     source: SOURCE_URL,
     last_updated_utc: new Date().toISOString(),
-    cash_pot: cashPot,
-    lotto: lotto,
-    super_lotto: superLotto,
+    cash_pot,
+    lotto,
+    super_lotto,
   };
 
   await fs.writeFile("./data/lottery_previews.json", JSON.stringify(output, null, 2));
-  console.log("✅ data/lottery_previews.json updated");
+  console.log("lottery_previews.json updated successfully");
 }
 
 run().catch((err) => {
-  console.error("❌ update-lottery failed:", err);
+  console.error(err);
   process.exit(1);
 });
