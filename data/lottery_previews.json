@@ -1,19 +1,81 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-02-16T18:04:22.285Z",
+  "last_updated_utc": "2026-02-16T19:39:44.640Z",
   "cash_pot": {
     "title": "Cash Pot",
-    "drawDate": "16 February 2026",
-    "drawTime": "EARLYBIRD",
-    "numbers": [
-      "30"
-    ],
-    "note": "Fish • #37103"
+    "drawDate": "",
+    "draws": [
+      {
+        "time": "EARLYBIRD",
+        "at": "8:30AM",
+        "draw_no": "37103",
+        "number": "30",
+        "label": "Fish",
+        "colors": [
+          "white",
+          "white"
+        ]
+      },
+      {
+        "time": "MORNING",
+        "at": "10:30AM",
+        "draw_no": "37104",
+        "number": "5",
+        "label": "Thief",
+        "colors": [
+          "white",
+          "white"
+        ]
+      },
+      {
+        "time": "MIDDAY",
+        "at": "",
+        "draw_no": "37105",
+        "number": "1",
+        "label": "Duppy",
+        "colors": [
+          "white",
+          "red"
+        ]
+      },
+      {
+        "time": "MIDAFTERNOON",
+        "at": "",
+        "draw_no": "37100",
+        "number": "18",
+        "label": "Race Horse",
+        "colors": [
+          "white",
+          "red"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "37101",
+        "number": "22",
+        "label": "White Woman",
+        "colors": [
+          "white",
+          "red"
+        ]
+      },
+      {
+        "time": "EVENING",
+        "at": "8:25PM",
+        "draw_no": "37102",
+        "number": "30",
+        "label": "Fish",
+        "colors": [
+          "white",
+          "white"
+        ]
+      }
+    ]
   },
   "lotto": {
     "title": "Lotto",
-    "drawDate": "14 February 2026",
-    "drawTime": "",
+    "drawDate": "",
     "numbers": [
       "7",
       "8",
@@ -23,12 +85,11 @@
       "34"
     ],
     "bonus": "24",
-    "note": ""
+    "next_jackpot": null
   },
   "super_lotto": {
     "title": "Super Lotto",
-    "drawDate": "13 February 2026",
-    "drawTime": "",
+    "drawDate": "",
     "numbers": [
       "1",
       "2",
@@ -37,6 +98,6 @@
       "24"
     ],
     "bonus": "10",
-    "note": ""
+    "next_jackpot": null
   }
 }
