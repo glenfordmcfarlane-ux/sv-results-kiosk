@@ -1,9 +1,13 @@
 {
-  "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-02-17T12:03:47.688Z",
+  "source": {
+    "cash_pot": "https://www.jamaicaindex.com/lottery/results/cash-pot",
+    "lotto": "https://www.jamaicaindex.com/lottery/results/lotto",
+    "super_lotto": "https://www.jamaicaindex.com/lottery/results/super-lotto"
+  },
+  "last_updated_utc": "2026-02-17T13:03:13.750Z",
   "cash_pot": {
     "title": "Cash Pot",
-    "drawDate": "",
+    "drawDate": "Monday | 16 February 2026",
     "draws": [
       {
         "time": "EARLYBIRD",
@@ -29,7 +33,7 @@
       },
       {
         "time": "MIDDAY",
-        "at": "",
+        "at": "1PM",
         "draw_no": "37105",
         "number": "1",
         "label": "Duppy",
@@ -40,7 +44,7 @@
       },
       {
         "time": "MIDAFTERNOON",
-        "at": "",
+        "at": "3PM",
         "draw_no": "37106",
         "number": "1",
         "label": "Duppy",
@@ -51,12 +55,12 @@
       },
       {
         "time": "DRIVETIME",
-        "at": "",
+        "at": "5PM",
         "draw_no": "37107",
         "number": "33",
         "label": "Big House",
         "colors": [
-          "white",
+          "gold",
           "white"
         ]
       },
@@ -71,33 +75,34 @@
           "white"
         ]
       }
-    ]
+    ],
+    "note": ""
   },
   "lotto": {
     "title": "Lotto",
-    "drawDate": "",
+    "drawDate": "14 February 2026 Saturday",
     "numbers": [
+      "3",
+      "4",
+      "14",
       "7",
       "8",
-      "18",
-      "31",
-      "32",
-      "34"
+      "18"
     ],
-    "bonus": "24",
-    "next_jackpot": null
+    "bonus": "31",
+    "note": "Next Jackpot: $39M"
   },
   "super_lotto": {
     "title": "Super Lotto",
-    "drawDate": "",
+    "drawDate": "13 February 2026 Friday",
     "numbers": [
+      "3",
+      "4",
+      "13",
       "1",
-      "2",
-      "9",
-      "20",
-      "24"
+      "2"
     ],
-    "bonus": "10",
-    "next_jackpot": null
+    "bonus": "9",
+    "note": "Next Jackpot: $316M"
   }
 }
