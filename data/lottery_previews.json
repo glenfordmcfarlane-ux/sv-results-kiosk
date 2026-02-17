@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-02-17T21:49:57.009Z",
+  "last_updated_utc": "2026-02-17T22:35:53.328Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -52,11 +52,11 @@
       {
         "time": "DRIVETIME",
         "at": "",
-        "draw_no": "37107",
-        "number": "33",
-        "label": "Big House",
+        "draw_no": "37113",
+        "number": "27",
+        "label": "Big Fire",
         "colors": [
-          "white",
+          "red",
           "white"
         ]
       }
