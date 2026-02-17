@@ -79,15 +79,17 @@ function splitByCashTime(section) {
 }
 
 function parseCashColors(chunkHtml) {
-  // JamaicaIndex shows little boxes with text like "white" "red"
+  // JamaicaIndex shows little boxes with text like "white" "red" "gold"
   const colors = [];
-  const re = />\s*(white|red|blue|green|yellow|black)\s*</gi;
+  const re = />\s*(white|red|blue|green|yellow|black|gold)\s*</gi;
+
   let m;
   while ((m = re.exec(chunkHtml)) !== null) {
-    colors.push(m[1].toLowerCase());
+    const c = m[1].toLowerCase();
+    colors.push(c);
     if (colors.length >= 2) break;
   }
-  // If not found, default to white/white (your desired display)
+
   while (colors.length < 2) colors.push("white");
   return colors.slice(0, 2);
 }
