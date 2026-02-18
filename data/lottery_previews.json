@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-02-18T21:52:06.507Z",
+  "last_updated_utc": "2026-02-18T23:04:04.762Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -46,6 +46,17 @@
         "label": "Baby",
         "colors": [
           "white",
+          "white"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "37119",
+        "number": "4",
+        "label": "Egg",
+        "colors": [
+          "gold",
           "white"
         ]
       }
