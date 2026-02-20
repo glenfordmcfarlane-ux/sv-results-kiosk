@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-02-20T21:52:18.569Z",
+  "last_updated_utc": "2026-02-20T22:59:42.984Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -44,6 +44,17 @@
         "draw_no": "37130",
         "number": "1",
         "label": "Duppy",
+        "colors": [
+          "white",
+          "red"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "37131",
+        "number": "6",
+        "label": "Strong Man",
         "colors": [
           "white",
           "red"
