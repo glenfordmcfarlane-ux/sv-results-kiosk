@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-02-21T23:47:32.766Z",
+  "last_updated_utc": "2026-02-21T23:59:56.634Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -46,6 +46,17 @@
         "label": "Small House",
         "colors": [
           "white",
+          "white"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "37137",
+        "number": "8",
+        "label": "Belly",
+        "colors": [
+          "gold",
           "white"
         ]
       }
