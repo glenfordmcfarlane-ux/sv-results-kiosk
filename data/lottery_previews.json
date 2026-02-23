@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-02-23T18:16:45.738Z",
+  "last_updated_utc": "2026-02-23T20:08:43.088Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -25,6 +25,17 @@
         "colors": [
           "white",
           "white"
+        ]
+      },
+      {
+        "time": "MIDDAY",
+        "at": "",
+        "draw_no": "37147",
+        "number": "20",
+        "label": "Sick Person",
+        "colors": [
+          "gold",
+          "red"
         ]
       }
     ]
