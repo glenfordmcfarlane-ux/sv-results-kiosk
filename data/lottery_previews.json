@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-02-25T15:14:33.910Z",
+  "last_updated_utc": "2026-02-25T18:42:06.384Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -14,6 +14,28 @@
         "colors": [
           "white",
           "red"
+        ]
+      },
+      {
+        "time": "MORNING",
+        "at": "10:30AM",
+        "draw_no": "37158",
+        "number": "31",
+        "label": "Lizard",
+        "colors": [
+          "white",
+          "red"
+        ]
+      },
+      {
+        "time": "MIDDAY",
+        "at": "",
+        "draw_no": "37159",
+        "number": "31",
+        "label": "Lizard",
+        "colors": [
+          "gold",
+          "white"
         ]
       }
     ]
