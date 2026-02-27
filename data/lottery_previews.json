@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-02-27T14:08:51.350Z",
+  "last_updated_utc": "2026-02-27T15:55:20.356Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -11,6 +11,17 @@
         "draw_no": "37169",
         "number": "33",
         "label": "Big House",
+        "colors": [
+          "gold",
+          "red"
+        ]
+      },
+      {
+        "time": "MORNING",
+        "at": "10:30AM",
+        "draw_no": "37170",
+        "number": "26",
+        "label": "White Man",
         "colors": [
           "gold",
           "red"
