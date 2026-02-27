@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-02-27T19:48:23.191Z",
+  "last_updated_utc": "2026-02-27T20:57:20.092Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -35,6 +35,17 @@
         "label": "Married Woman",
         "colors": [
           "white",
+          "white"
+        ]
+      },
+      {
+        "time": "MIDAFTERNOON",
+        "at": "",
+        "draw_no": "37172",
+        "number": "27",
+        "label": "Big Fire",
+        "colors": [
+          "gold",
           "white"
         ]
       }
