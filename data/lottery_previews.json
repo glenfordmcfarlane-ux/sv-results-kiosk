@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-03-08T22:12:02.972Z",
+  "last_updated_utc": "2026-03-08T22:43:22.531Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -46,6 +46,17 @@
         "label": "Parson",
         "colors": [
           "white",
+          "white"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "37227",
+        "number": "2",
+        "label": "Small Fire",
+        "colors": [
+          "gold",
           "white"
         ]
       }
