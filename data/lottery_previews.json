@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-03-11T13:23:53.695Z",
+  "last_updated_utc": "2026-03-11T14:25:17.982Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,11 +8,11 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "37235",
-        "number": "3",
-        "label": "Dead",
+        "draw_no": "37241",
+        "number": "11",
+        "label": "Dog",
         "colors": [
-          "gold",
+          "white",
           "red"
         ]
       },
