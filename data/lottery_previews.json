@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-03-12T18:04:17.972Z",
+  "last_updated_utc": "2026-03-12T19:08:14.499Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -24,6 +24,17 @@
         "label": "Baby",
         "colors": [
           "white",
+          "white"
+        ]
+      },
+      {
+        "time": "MIDDAY",
+        "at": "",
+        "draw_no": "37249",
+        "number": "22",
+        "label": "White Woman",
+        "colors": [
+          "gold",
           "white"
         ]
       }
