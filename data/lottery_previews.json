@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-03-15T20:13:33.699Z",
+  "last_updated_utc": "2026-03-15T20:47:30.938Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -33,6 +33,17 @@
         "draw_no": "37267",
         "number": "1",
         "label": "Duppy",
+        "colors": [
+          "white",
+          "white"
+        ]
+      },
+      {
+        "time": "MIDAFTERNOON",
+        "at": "",
+        "draw_no": "37268",
+        "number": "31",
+        "label": "Lizard",
         "colors": [
           "white",
           "white"
