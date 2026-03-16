@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-03-16T15:51:42.024Z",
+  "last_updated_utc": "2026-03-16T16:52:52.926Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -14,6 +14,17 @@
         "colors": [
           "gold",
           "red"
+        ]
+      },
+      {
+        "time": "MORNING",
+        "at": "10:30AM",
+        "draw_no": "37272",
+        "number": "15",
+        "label": "Rat",
+        "colors": [
+          "gold",
+          "white"
         ]
       }
     ]
