@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-03-16T19:54:11.701Z",
+  "last_updated_utc": "2026-03-16T20:35:38.513Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -35,6 +35,17 @@
         "label": "Chinese Man",
         "colors": [
           "gold",
+          "red"
+        ]
+      },
+      {
+        "time": "MIDAFTERNOON",
+        "at": "",
+        "draw_no": "37274",
+        "number": "26",
+        "label": "White Man",
+        "colors": [
+          "white",
           "red"
         ]
       }
