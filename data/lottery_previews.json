@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-03-27T00:01:48.899Z",
+  "last_updated_utc": "2026-03-27T03:26:08.352Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -58,6 +58,17 @@
         "colors": [
           "white",
           "white"
+        ]
+      },
+      {
+        "time": "EVENING",
+        "at": "8:25PM",
+        "draw_no": "37336",
+        "number": "3",
+        "label": "Dead",
+        "colors": [
+          "white",
+          "red"
         ]
       }
     ]
