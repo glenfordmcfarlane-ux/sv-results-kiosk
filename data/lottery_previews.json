@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-03-31T14:01:27.391Z",
+  "last_updated_utc": "2026-03-31T15:15:54.068Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,12 +8,12 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "37355",
-        "number": "10",
-        "label": "Small House",
+        "draw_no": "37361",
+        "number": "33",
+        "label": "Big House",
         "colors": [
           "white",
-          "white"
+          "red"
         ]
       },
       {
