@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-04-08T00:04:05.193Z",
+  "last_updated_utc": "2026-04-08T03:29:16.874Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -55,6 +55,17 @@
         "draw_no": "37401",
         "number": "21",
         "label": "Bad Girl",
+        "colors": [
+          "white",
+          "white"
+        ]
+      },
+      {
+        "time": "EVENING",
+        "at": "8:25PM",
+        "draw_no": "37402",
+        "number": "18",
+        "label": "Race Horse",
         "colors": [
           "white",
           "white"
