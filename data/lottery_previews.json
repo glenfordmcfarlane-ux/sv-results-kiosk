@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-04-13T12:46:12.169Z",
+  "last_updated_utc": "2026-04-13T14:22:45.487Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,11 +8,11 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "37427",
-        "number": "24",
-        "label": "Fresh Water",
+        "draw_no": "37433",
+        "number": "32",
+        "label": "Gold",
         "colors": [
-          "white",
+          "gold",
           "white"
         ]
       },
