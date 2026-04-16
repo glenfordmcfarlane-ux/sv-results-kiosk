@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-04-16T14:28:05.797Z",
+  "last_updated_utc": "2026-04-16T16:07:07.623Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -11,6 +11,17 @@
         "draw_no": "37451",
         "number": "34",
         "label": "Baby",
+        "colors": [
+          "white",
+          "white"
+        ]
+      },
+      {
+        "time": "MORNING",
+        "at": "10:30AM",
+        "draw_no": "37452",
+        "number": "17",
+        "label": "Chinese Man",
         "colors": [
           "white",
           "white"
