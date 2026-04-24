@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-04-24T20:00:08.344Z",
+  "last_updated_utc": "2026-04-24T21:00:21.178Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -36,6 +36,17 @@
         "colors": [
           "white",
           "white"
+        ]
+      },
+      {
+        "time": "MIDAFTERNOON",
+        "at": "",
+        "draw_no": "37502",
+        "number": "9",
+        "label": "Cow",
+        "colors": [
+          "white",
+          "red"
         ]
       }
     ]
