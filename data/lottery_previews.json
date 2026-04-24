@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-04-24T00:10:15.567Z",
+  "last_updated_utc": "2026-04-24T03:50:26.194Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,53 +8,53 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "37481",
-        "number": "14",
-        "label": "Mouth",
+        "draw_no": "37493",
+        "number": "16",
+        "label": "Young Girl",
         "colors": [
           "white",
-          "white"
+          "red"
         ]
       },
       {
         "time": "MORNING",
         "at": "10:30AM",
-        "draw_no": "37482",
-        "number": "22",
-        "label": "White Woman",
+        "draw_no": "37494",
+        "number": "8",
+        "label": "Belly",
         "colors": [
-          "white",
-          "white"
+          "gold",
+          "red"
         ]
       },
       {
         "time": "MIDDAY",
         "at": "",
-        "draw_no": "37483",
-        "number": "35",
-        "label": "Goat",
+        "draw_no": "37495",
+        "number": "23",
+        "label": "Black Man",
+        "colors": [
+          "white",
+          "red"
+        ]
+      },
+      {
+        "time": "MIDAFTERNOON",
+        "at": "",
+        "draw_no": "37496",
+        "number": "23",
+        "label": "Black Man",
         "colors": [
           "gold",
           "white"
         ]
       },
       {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "37484",
-        "number": "9",
-        "label": "Cow",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
         "time": "DRIVETIME",
         "at": "",
-        "draw_no": "37485",
-        "number": "35",
-        "label": "Goat",
+        "draw_no": "37497",
+        "number": "11",
+        "label": "Dog",
         "colors": [
           "white",
           "red"
@@ -66,14 +66,14 @@
     "title": "Lotto",
     "drawDate": "",
     "numbers": [
-      "2",
-      "5",
-      "20",
-      "22",
-      "26",
-      "35"
+      "1",
+      "7",
+      "23",
+      "27",
+      "31",
+      "38"
     ],
-    "bonus": "33",
+    "bonus": "15",
     "next_jackpot": null
   },
   "super_lotto": {
