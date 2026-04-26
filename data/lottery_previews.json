@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-04-26T15:57:01.287Z",
+  "last_updated_utc": "2026-04-26T16:51:10.089Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -14,6 +14,17 @@
         "colors": [
           "gold",
           "white"
+        ]
+      },
+      {
+        "time": "MORNING",
+        "at": "10:30AM",
+        "draw_no": "37512",
+        "number": "6",
+        "label": "Strong Man",
+        "colors": [
+          "white",
+          "red"
         ]
       }
     ]
