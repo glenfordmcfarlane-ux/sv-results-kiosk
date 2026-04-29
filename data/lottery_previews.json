@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-04-29T15:15:03.627Z",
+  "last_updated_utc": "2026-04-29T16:55:15.582Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -11,6 +11,17 @@
         "draw_no": "37529",
         "number": "31",
         "label": "Lizard",
+        "colors": [
+          "white",
+          "white"
+        ]
+      },
+      {
+        "time": "MORNING",
+        "at": "10:30AM",
+        "draw_no": "37530",
+        "number": "25",
+        "label": "John Crow",
         "colors": [
           "white",
           "white"
