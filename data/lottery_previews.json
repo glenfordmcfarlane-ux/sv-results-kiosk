@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-04-30T22:12:39.508Z",
+  "last_updated_utc": "2026-04-30T23:11:15.551Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -46,6 +46,17 @@
         "label": "Sick Person",
         "colors": [
           "white",
+          "white"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "37539",
+        "number": "7",
+        "label": "Married Woman",
+        "colors": [
+          "gold",
           "white"
         ]
       }
