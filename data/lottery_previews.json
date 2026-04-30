@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-04-30T14:27:35.658Z",
+  "last_updated_utc": "2026-04-30T16:04:12.341Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,53 +8,9 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "37529",
-        "number": "31",
-        "label": "Lizard",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "MORNING",
-        "at": "10:30AM",
-        "draw_no": "37530",
-        "number": "25",
-        "label": "John Crow",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "37531",
-        "number": "25",
-        "label": "John Crow",
-        "colors": [
-          "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "37532",
-        "number": "31",
-        "label": "Lizard",
-        "colors": [
-          "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "37533",
-        "number": "10",
-        "label": "Small House",
+        "draw_no": "37535",
+        "number": "19",
+        "label": "Silver Money",
         "colors": [
           "white",
           "red"
@@ -66,27 +22,27 @@
     "title": "Lotto",
     "drawDate": "",
     "numbers": [
-      "1",
-      "7",
-      "23",
-      "27",
-      "31",
-      "38"
+      "9",
+      "15",
+      "17",
+      "21",
+      "25",
+      "28"
     ],
-    "bonus": "15",
+    "bonus": "24",
     "next_jackpot": null
   },
   "super_lotto": {
     "title": "Super Lotto",
     "drawDate": "",
     "numbers": [
-      "20",
-      "26",
+      "4",
+      "6",
+      "23",
       "27",
-      "34",
-      "35"
+      "30"
     ],
-    "bonus": "9",
+    "bonus": null,
     "next_jackpot": null
   }
 }
