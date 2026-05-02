@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-05-02T16:09:14.786Z",
+  "last_updated_utc": "2026-05-02T17:06:08.791Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -14,6 +14,17 @@
         "colors": [
           "white",
           "red"
+        ]
+      },
+      {
+        "time": "MORNING",
+        "at": "10:30AM",
+        "draw_no": "37548",
+        "number": "23",
+        "label": "Black Man",
+        "colors": [
+          "white",
+          "white"
         ]
       }
     ]
