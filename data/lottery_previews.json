@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-05-02T22:21:00.630Z",
+  "last_updated_utc": "2026-05-02T23:05:57.490Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -47,6 +47,17 @@
         "colors": [
           "gold",
           "red"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "37551",
+        "number": "18",
+        "label": "Race Horse",
+        "colors": [
+          "gold",
+          "white"
         ]
       }
     ]
