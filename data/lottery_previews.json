@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-05-03T13:45:01.280Z",
+  "last_updated_utc": "2026-05-03T14:36:26.764Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,55 +8,11 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "37547",
-        "number": "3",
-        "label": "Dead",
+        "draw_no": "37553",
+        "number": "10",
+        "label": "Small House",
         "colors": [
           "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MORNING",
-        "at": "10:30AM",
-        "draw_no": "37548",
-        "number": "23",
-        "label": "Black Man",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "37549",
-        "number": "31",
-        "label": "Lizard",
-        "colors": [
-          "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "37550",
-        "number": "29",
-        "label": "Parson",
-        "colors": [
-          "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "37551",
-        "number": "18",
-        "label": "Race Horse",
-        "colors": [
-          "gold",
           "white"
         ]
       }
@@ -66,27 +22,27 @@
     "title": "Lotto",
     "drawDate": "",
     "numbers": [
-      "9",
+      "2",
       "15",
-      "17",
-      "21",
-      "25",
-      "28"
+      "24",
+      "30",
+      "35",
+      "36"
     ],
-    "bonus": "24",
+    "bonus": "14",
     "next_jackpot": null
   },
   "super_lotto": {
     "title": "Super Lotto",
     "drawDate": "",
     "numbers": [
-      "4",
-      "6",
-      "23",
-      "27",
-      "30"
+      "11",
+      "15",
+      "24",
+      "29",
+      "32"
     ],
-    "bonus": null,
+    "bonus": "7",
     "next_jackpot": null
   }
 }
