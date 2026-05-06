@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-05-06T13:02:52.510Z",
+  "last_updated_utc": "2026-05-06T15:30:41.598Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,64 +8,9 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "37565",
-        "number": "32",
-        "label": "Gold",
-        "colors": [
-          "gold",
-          "white"
-        ]
-      },
-      {
-        "time": "MORNING",
-        "at": "10:30AM",
-        "draw_no": "37566",
-        "number": "22",
-        "label": "White Woman",
-        "colors": [
-          "gold",
-          "white"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "37567",
-        "number": "2",
-        "label": "Small Fire",
-        "colors": [
-          "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "37568",
-        "number": "26",
-        "label": "White Man",
-        "colors": [
-          "gold",
-          "white"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "37569",
-        "number": "7",
-        "label": "Married Woman",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "37570",
-        "number": "31",
-        "label": "Lizard",
+        "draw_no": "37571",
+        "number": "18",
+        "label": "Race Horse",
         "colors": [
           "white",
           "red"
@@ -91,13 +36,13 @@
     "title": "Super Lotto",
     "drawDate": "",
     "numbers": [
-      "11",
-      "15",
-      "24",
-      "29",
-      "32"
+      "3",
+      "4",
+      "17",
+      "21",
+      "33"
     ],
-    "bonus": "7",
+    "bonus": "6",
     "next_jackpot": null
   }
 }
