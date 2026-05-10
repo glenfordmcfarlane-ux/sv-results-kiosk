@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-05-10T19:20:21.694Z",
+  "last_updated_utc": "2026-05-10T20:06:29.907Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -25,6 +25,17 @@
         "colors": [
           "white",
           "red"
+        ]
+      },
+      {
+        "time": "MIDDAY",
+        "at": "",
+        "draw_no": "37597",
+        "number": "16",
+        "label": "Young Girl",
+        "colors": [
+          "white",
+          "white"
         ]
       }
     ]
