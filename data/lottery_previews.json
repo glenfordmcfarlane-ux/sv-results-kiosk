@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-05-10T21:59:49.098Z",
+  "last_updated_utc": "2026-05-10T22:58:33.204Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -44,6 +44,17 @@
         "draw_no": "37598",
         "number": "19",
         "label": "Silver Money",
+        "colors": [
+          "white",
+          "white"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "37599",
+        "number": "22",
+        "label": "White Woman",
         "colors": [
           "white",
           "white"
