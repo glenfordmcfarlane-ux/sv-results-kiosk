@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-05-12T12:20:44.604Z",
+  "last_updated_utc": "2026-05-12T15:15:15.558Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,66 +8,11 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "37601",
+        "draw_no": "37607",
         "number": "20",
         "label": "Sick Person",
         "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "MORNING",
-        "at": "10:30AM",
-        "draw_no": "37602",
-        "number": "12",
-        "label": "Head",
-        "colors": [
           "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "37603",
-        "number": "31",
-        "label": "Lizard",
-        "colors": [
-          "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "37604",
-        "number": "29",
-        "label": "Parson",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "37605",
-        "number": "23",
-        "label": "Black Man",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "37606",
-        "number": "36",
-        "label": "Old Lady",
-        "colors": [
-          "white",
           "red"
         ]
       }
