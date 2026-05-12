@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-05-12T22:06:59.163Z",
+  "last_updated_utc": "2026-05-12T23:16:44.782Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -44,6 +44,17 @@
         "draw_no": "37610",
         "number": "25",
         "label": "John Crow",
+        "colors": [
+          "white",
+          "white"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "37611",
+        "number": "20",
+        "label": "Sick Person",
         "colors": [
           "white",
           "white"
