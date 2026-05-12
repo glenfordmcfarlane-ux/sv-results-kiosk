@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-05-12T15:15:15.558Z",
+  "last_updated_utc": "2026-05-12T17:25:36.796Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -13,6 +13,17 @@
         "label": "Sick Person",
         "colors": [
           "gold",
+          "red"
+        ]
+      },
+      {
+        "time": "MORNING",
+        "at": "10:30AM",
+        "draw_no": "37608",
+        "number": "18",
+        "label": "Race Horse",
+        "colors": [
+          "white",
           "red"
         ]
       }
