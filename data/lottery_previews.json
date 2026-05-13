@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-05-13T22:20:32.010Z",
+  "last_updated_utc": "2026-05-13T23:34:05.894Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -47,6 +47,17 @@
         "colors": [
           "gold",
           "white"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "37617",
+        "number": "23",
+        "label": "Black Man",
+        "colors": [
+          "white",
+          "red"
         ]
       }
     ]
