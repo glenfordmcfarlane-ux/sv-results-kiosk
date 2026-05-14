@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-05-14T12:13:22.014Z",
+  "last_updated_utc": "2026-05-14T14:43:49.880Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,53 +8,9 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "37613",
-        "number": "4",
-        "label": "Egg",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "MORNING",
-        "at": "10:30AM",
-        "draw_no": "37614",
-        "number": "13",
-        "label": "Police",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "37615",
-        "number": "23",
-        "label": "Black Man",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "37616",
-        "number": "3",
-        "label": "Dead",
-        "colors": [
-          "gold",
-          "white"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "37617",
-        "number": "23",
-        "label": "Black Man",
+        "draw_no": "37619",
+        "number": "10",
+        "label": "Small House",
         "colors": [
           "white",
           "red"
@@ -66,27 +22,27 @@
     "title": "Lotto",
     "drawDate": "",
     "numbers": [
-      "1",
-      "25",
-      "26",
-      "27",
-      "28",
-      "37"
+      "21",
+      "23",
+      "29",
+      "32",
+      "36",
+      "38"
     ],
-    "bonus": "30",
+    "bonus": "15",
     "next_jackpot": null
   },
   "super_lotto": {
     "title": "Super Lotto",
     "drawDate": "",
     "numbers": [
-      "9",
-      "12",
+      "8",
       "13",
-      "15",
-      "27"
+      "23",
+      "24",
+      "26"
     ],
-    "bonus": "6",
+    "bonus": "2",
     "next_jackpot": null
   }
 }
