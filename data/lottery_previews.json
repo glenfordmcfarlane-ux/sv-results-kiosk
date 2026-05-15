@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-05-15T22:14:12.149Z",
+  "last_updated_utc": "2026-05-15T23:13:49.249Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -46,6 +46,17 @@
         "label": "Big Fire",
         "colors": [
           "white",
+          "red"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "37629",
+        "number": "17",
+        "label": "Chinese Man",
+        "colors": [
+          "gold",
           "red"
         ]
       }
