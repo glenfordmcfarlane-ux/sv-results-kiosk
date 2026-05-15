@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-05-15T15:20:42.192Z",
+  "last_updated_utc": "2026-05-15T17:06:34.219Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -14,6 +14,17 @@
         "colors": [
           "white",
           "white"
+        ]
+      },
+      {
+        "time": "MORNING",
+        "at": "10:30AM",
+        "draw_no": "37626",
+        "number": "8",
+        "label": "Belly",
+        "colors": [
+          "gold",
+          "red"
         ]
       }
     ]
