@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-05-17T01:23:41.958Z",
+  "last_updated_utc": "2026-05-17T05:06:23.657Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -66,14 +66,14 @@
     "title": "Lotto",
     "drawDate": "",
     "numbers": [
-      "21",
-      "23",
-      "29",
-      "32",
-      "36",
-      "38"
+      "1",
+      "6",
+      "25",
+      "34",
+      "35",
+      "36"
     ],
-    "bonus": "15",
+    "bonus": "17",
     "next_jackpot": null
   },
   "super_lotto": {
