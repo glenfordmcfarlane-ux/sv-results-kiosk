@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-05-20T01:34:14.305Z",
+  "last_updated_utc": "2026-05-20T05:48:38.155Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -55,6 +55,17 @@
         "draw_no": "37653",
         "number": "7",
         "label": "Married Woman",
+        "colors": [
+          "white",
+          "red"
+        ]
+      },
+      {
+        "time": "EVENING",
+        "at": "8:25PM",
+        "draw_no": "37654",
+        "number": "4",
+        "label": "Egg",
         "colors": [
           "white",
           "red"
