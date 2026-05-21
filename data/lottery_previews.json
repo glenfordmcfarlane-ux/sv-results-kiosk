@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-05-21T19:18:56.902Z",
+  "last_updated_utc": "2026-05-21T21:01:12.109Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -37,6 +37,17 @@
           "white",
           "white"
         ]
+      },
+      {
+        "time": "MIDAFTERNOON",
+        "at": "",
+        "draw_no": "37664",
+        "number": "29",
+        "label": "Parson",
+        "colors": [
+          "white",
+          "red"
+        ]
       }
     ]
   },
@@ -44,27 +55,27 @@
     "title": "Lotto",
     "drawDate": "",
     "numbers": [
-      "1",
+      "3",
       "6",
-      "25",
-      "34",
-      "35",
-      "36"
+      "9",
+      "10",
+      "14",
+      "15"
     ],
-    "bonus": "17",
+    "bonus": "26",
     "next_jackpot": null
   },
   "super_lotto": {
     "title": "Super Lotto",
     "drawDate": "",
     "numbers": [
-      "16",
+      "7",
+      "9",
+      "15",
       "20",
-      "24",
-      "25",
-      "27"
+      "24"
     ],
-    "bonus": "4",
+    "bonus": "2",
     "next_jackpot": null
   }
 }
