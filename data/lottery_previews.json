@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-05-24T13:55:16.175Z",
+  "last_updated_utc": "2026-05-24T15:03:49.633Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,67 +8,12 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "37673",
-        "number": "9",
-        "label": "Cow",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MORNING",
-        "at": "10:30AM",
-        "draw_no": "37674",
-        "number": "5",
-        "label": "Thief",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "37675",
-        "number": "24",
-        "label": "Fresh Water",
+        "draw_no": "37679",
+        "number": "15",
+        "label": "Rat",
         "colors": [
           "gold",
           "white"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "37676",
-        "number": "16",
-        "label": "Young Girl",
-        "colors": [
-          "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "37677",
-        "number": "16",
-        "label": "Young Girl",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "37678",
-        "number": "5",
-        "label": "Thief",
-        "colors": [
-          "gold",
-          "red"
         ]
       }
     ]
