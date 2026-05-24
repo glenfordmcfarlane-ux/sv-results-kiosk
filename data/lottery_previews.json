@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-05-24T22:38:28.660Z",
+  "last_updated_utc": "2026-05-24T23:42:27.324Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -47,6 +47,17 @@
         "colors": [
           "white",
           "white"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "37683",
+        "number": "7",
+        "label": "Married Woman",
+        "colors": [
+          "gold",
+          "red"
         ]
       }
     ]
