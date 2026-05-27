@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-05-27T16:54:57.789Z",
+  "last_updated_utc": "2026-05-27T19:23:11.170Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -24,6 +24,17 @@
         "label": "Fresh Water",
         "colors": [
           "white",
+          "red"
+        ]
+      },
+      {
+        "time": "MIDDAY",
+        "at": "",
+        "draw_no": "37699",
+        "number": "17",
+        "label": "Chinese Man",
+        "colors": [
+          "gold",
           "red"
         ]
       }
