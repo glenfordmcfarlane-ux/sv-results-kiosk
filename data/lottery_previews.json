@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-05-28T11:47:34.021Z",
+  "last_updated_utc": "2026-05-28T14:55:23.504Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,64 +8,9 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "37697",
-        "number": "3",
-        "label": "Dead",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "MORNING",
-        "at": "10:30AM",
-        "draw_no": "37698",
-        "number": "24",
-        "label": "Fresh Water",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "37699",
-        "number": "17",
-        "label": "Chinese Man",
-        "colors": [
-          "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "37700",
-        "number": "29",
-        "label": "Parson",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "37701",
-        "number": "18",
-        "label": "Race Horse",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "37704",
-        "number": "33",
-        "label": "Big House",
+        "draw_no": "37705",
+        "number": "11",
+        "label": "Dog",
         "colors": [
           "white",
           "white"
