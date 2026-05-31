@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-05-31T16:22:00.755Z",
+  "last_updated_utc": "2026-05-31T17:34:56.681Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -13,6 +13,17 @@
         "label": "Married Woman",
         "colors": [
           "white",
+          "white"
+        ]
+      },
+      {
+        "time": "MORNING",
+        "at": "10:30AM",
+        "draw_no": "37722",
+        "number": "14",
+        "label": "Mouth",
+        "colors": [
+          "gold",
           "white"
         ]
       }
