@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-06-04T20:18:29.276Z",
+  "last_updated_utc": "2026-06-04T21:56:03.454Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -33,6 +33,17 @@
         "draw_no": "37747",
         "number": "9",
         "label": "Cow",
+        "colors": [
+          "white",
+          "white"
+        ]
+      },
+      {
+        "time": "MIDAFTERNOON",
+        "at": "",
+        "draw_no": "37748",
+        "number": "3",
+        "label": "Dead",
         "colors": [
           "white",
           "white"
