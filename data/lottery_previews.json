@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-06-04T00:18:01.402Z",
+  "last_updated_utc": "2026-06-04T05:13:41.362Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -52,12 +52,23 @@
       {
         "time": "DRIVETIME",
         "at": "",
-        "draw_no": "37737",
-        "number": "4",
-        "label": "Egg",
+        "draw_no": "37743",
+        "number": "13",
+        "label": "Police",
         "colors": [
           "white",
-          "white"
+          "red"
+        ]
+      },
+      {
+        "time": "EVENING",
+        "at": "8:25PM",
+        "draw_no": "37744",
+        "number": "28",
+        "label": "Fowl",
+        "colors": [
+          "white",
+          "red"
         ]
       }
     ]
@@ -66,14 +77,14 @@
     "title": "Lotto",
     "drawDate": "",
     "numbers": [
-      "18",
-      "23",
-      "27",
-      "31",
-      "35",
-      "36"
+      "6",
+      "8",
+      "11",
+      "13",
+      "20",
+      "34"
     ],
-    "bonus": "16",
+    "bonus": "28",
     "next_jackpot": null
   },
   "super_lotto": {
