@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-06-04T21:56:03.454Z",
+  "last_updated_utc": "2026-06-04T23:09:59.326Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -46,6 +46,17 @@
         "label": "Dead",
         "colors": [
           "white",
+          "white"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "37749",
+        "number": "31",
+        "label": "Lizard",
+        "colors": [
+          "gold",
           "white"
         ]
       }
