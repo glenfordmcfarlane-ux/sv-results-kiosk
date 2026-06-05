@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-06-05T18:29:14.198Z",
+  "last_updated_utc": "2026-06-05T20:28:55.002Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -25,6 +25,17 @@
         "colors": [
           "gold",
           "red"
+        ]
+      },
+      {
+        "time": "MIDDAY",
+        "at": "",
+        "draw_no": "37753",
+        "number": "24",
+        "label": "Fresh Water",
+        "colors": [
+          "gold",
+          "white"
         ]
       }
     ]
