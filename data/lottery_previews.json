@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-06-07T17:41:33.979Z",
+  "last_updated_utc": "2026-06-07T18:57:28.271Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -25,6 +25,17 @@
         "colors": [
           "white",
           "white"
+        ]
+      },
+      {
+        "time": "MIDDAY",
+        "at": "",
+        "draw_no": "37765",
+        "number": "32",
+        "label": "Gold",
+        "colors": [
+          "gold",
+          "gold"
         ]
       }
     ]
