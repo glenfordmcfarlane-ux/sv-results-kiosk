@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-06-08T23:53:23.894Z",
+  "last_updated_utc": "2026-06-09T02:36:10.274Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -47,6 +47,17 @@
         "colors": [
           "white",
           "white"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "37773",
+        "number": "5",
+        "label": "Thief",
+        "colors": [
+          "white",
+          "red"
         ]
       }
     ]
