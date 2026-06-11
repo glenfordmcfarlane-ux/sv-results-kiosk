@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-06-11T20:34:54.335Z",
+  "last_updated_utc": "2026-06-11T22:24:51.384Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -33,6 +33,17 @@
         "draw_no": "37789",
         "number": "13",
         "label": "Police",
+        "colors": [
+          "white",
+          "white"
+        ]
+      },
+      {
+        "time": "MIDAFTERNOON",
+        "at": "",
+        "draw_no": "37790",
+        "number": "36",
+        "label": "Old Lady",
         "colors": [
           "white",
           "white"
