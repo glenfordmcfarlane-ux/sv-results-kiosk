@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-06-13T13:08:10.916Z",
+  "last_updated_utc": "2026-06-13T15:08:22.737Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,56 +8,12 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "37793",
-        "number": "20",
-        "label": "Sick Person",
+        "draw_no": "37799",
+        "number": "12",
+        "label": "Head",
         "colors": [
           "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "MORNING",
-        "at": "10:30AM",
-        "draw_no": "37794",
-        "number": "10",
-        "label": "Small House",
-        "colors": [
-          "white",
           "white"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "37795",
-        "number": "1",
-        "label": "Duppy",
-        "colors": [
-          "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "37796",
-        "number": "34",
-        "label": "Baby",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "37797",
-        "number": "32",
-        "label": "Gold",
-        "colors": [
-          "gold",
-          "gold"
         ]
       }
     ]
@@ -80,13 +36,13 @@
     "title": "Super Lotto",
     "drawDate": "",
     "numbers": [
-      "11",
-      "12",
-      "25",
-      "28",
-      "29"
+      "1",
+      "5",
+      "7",
+      "16",
+      "24"
     ],
-    "bonus": "4",
+    "bonus": null,
     "next_jackpot": null
   }
 }
