@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-06-17T21:46:56.608Z",
+  "last_updated_utc": "2026-06-17T23:09:58.504Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -46,6 +46,17 @@
         "label": "John Crow",
         "colors": [
           "white",
+          "white"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "37827",
+        "number": "14",
+        "label": "Mouth",
+        "colors": [
+          "gold",
           "white"
         ]
       }
