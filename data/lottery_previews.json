@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-06-18T17:28:18.128Z",
+  "last_updated_utc": "2026-06-18T19:39:53.337Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -24,6 +24,17 @@
         "label": "Mouth",
         "colors": [
           "white",
+          "red"
+        ]
+      },
+      {
+        "time": "MIDDAY",
+        "at": "",
+        "draw_no": "37831",
+        "number": "27",
+        "label": "Big Fire",
+        "colors": [
+          "gold",
           "red"
         ]
       }
