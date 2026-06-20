@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-06-20T21:17:42.833Z",
+  "last_updated_utc": "2026-06-20T22:37:21.679Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -46,6 +46,17 @@
         "label": "Old Lady",
         "colors": [
           "white",
+          "red"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "37845",
+        "number": "19",
+        "label": "Silver Money",
+        "colors": [
+          "gold",
           "red"
         ]
       }
