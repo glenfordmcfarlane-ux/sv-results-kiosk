@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-06-21T15:00:25.601Z",
+  "last_updated_utc": "2026-06-21T16:51:41.008Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -14,6 +14,17 @@
         "colors": [
           "white",
           "red"
+        ]
+      },
+      {
+        "time": "MORNING",
+        "at": "10:30AM",
+        "draw_no": "37848",
+        "number": "21",
+        "label": "Bad Girl",
+        "colors": [
+          "gold",
+          "white"
         ]
       }
     ]
