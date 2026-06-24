@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-06-24T15:53:54.766Z",
+  "last_updated_utc": "2026-06-24T17:49:55.991Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -13,6 +13,17 @@
         "label": "Parson",
         "colors": [
           "white",
+          "white"
+        ]
+      },
+      {
+        "time": "MORNING",
+        "at": "10:30AM",
+        "draw_no": "37866",
+        "number": "32",
+        "label": "Gold",
+        "colors": [
+          "gold",
           "white"
         ]
       }
