@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-06-27T22:14:26.606Z",
+  "last_updated_utc": "2026-06-27T23:29:42.318Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -47,6 +47,17 @@
         "colors": [
           "gold",
           "red"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "37887",
+        "number": "21",
+        "label": "Bad Girl",
+        "colors": [
+          "gold",
+          "white"
         ]
       }
     ]
