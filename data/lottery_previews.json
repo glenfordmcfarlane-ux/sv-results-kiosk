@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-06-28T14:29:00.634Z",
+  "last_updated_utc": "2026-06-28T15:52:38.374Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,56 +8,12 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "37883",
-        "number": "4",
-        "label": "Egg",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "MORNING",
-        "at": "10:30AM",
-        "draw_no": "37884",
-        "number": "32",
-        "label": "Gold",
-        "colors": [
-          "gold",
-          "gold"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "37885",
-        "number": "33",
-        "label": "Big House",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "37886",
-        "number": "6",
-        "label": "Strong Man",
+        "draw_no": "37889",
+        "number": "34",
+        "label": "Baby",
         "colors": [
           "gold",
           "red"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "37887",
-        "number": "21",
-        "label": "Bad Girl",
-        "colors": [
-          "gold",
-          "white"
         ]
       }
     ]
@@ -66,27 +22,27 @@
     "title": "Lotto",
     "drawDate": "",
     "numbers": [
-      "14",
-      "17",
-      "18",
-      "23",
-      "25",
-      "34"
+      "8",
+      "9",
+      "19",
+      "24",
+      "29",
+      "36"
     ],
-    "bonus": "27",
+    "bonus": "13",
     "next_jackpot": null
   },
   "super_lotto": {
     "title": "Super Lotto",
     "drawDate": "",
     "numbers": [
-      "5",
-      "9",
-      "12",
-      "23",
-      "28"
+      "10",
+      "19",
+      "24",
+      "25",
+      "27"
     ],
-    "bonus": "3",
+    "bonus": "8",
     "next_jackpot": null
   }
 }
