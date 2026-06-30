@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-06-30T16:54:31.122Z",
+  "last_updated_utc": "2026-06-30T18:54:08.316Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -24,6 +24,17 @@
         "label": "John Crow",
         "colors": [
           "gold",
+          "white"
+        ]
+      },
+      {
+        "time": "MIDDAY",
+        "at": "",
+        "draw_no": "37903",
+        "number": "7",
+        "label": "Married Woman",
+        "colors": [
+          "white",
           "white"
         ]
       }
