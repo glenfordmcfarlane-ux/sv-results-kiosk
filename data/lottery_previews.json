@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-06-30T01:51:34.735Z",
+  "last_updated_utc": "2026-06-30T06:00:46.894Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -57,6 +57,17 @@
         "label": "Silver Money",
         "colors": [
           "gold",
+          "red"
+        ]
+      },
+      {
+        "time": "EVENING",
+        "at": "8:25PM",
+        "draw_no": "37900",
+        "number": "22",
+        "label": "White Woman",
+        "colors": [
+          "white",
           "red"
         ]
       }
