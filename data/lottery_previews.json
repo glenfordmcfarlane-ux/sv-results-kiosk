@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-07-01T15:58:42.023Z",
+  "last_updated_utc": "2026-07-01T18:05:09.449Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -13,6 +13,17 @@
         "label": "Goat",
         "colors": [
           "gold",
+          "white"
+        ]
+      },
+      {
+        "time": "MORNING",
+        "at": "10:30AM",
+        "draw_no": "37908",
+        "number": "12",
+        "label": "Head",
+        "colors": [
+          "white",
           "white"
         ]
       }
