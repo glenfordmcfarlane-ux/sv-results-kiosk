@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-07-02T19:54:55.017Z",
+  "last_updated_utc": "2026-07-02T21:04:30.498Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -36,6 +36,17 @@
         "colors": [
           "white",
           "red"
+        ]
+      },
+      {
+        "time": "MIDAFTERNOON",
+        "at": "",
+        "draw_no": "37916",
+        "number": "10",
+        "label": "Small House",
+        "colors": [
+          "gold",
+          "white"
         ]
       }
     ]
