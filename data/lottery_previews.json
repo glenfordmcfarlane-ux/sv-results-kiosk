@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-07-02T16:27:11.902Z",
+  "last_updated_utc": "2026-07-02T18:14:52.859Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -13,6 +13,17 @@
         "label": "Small Fire",
         "colors": [
           "white",
+          "white"
+        ]
+      },
+      {
+        "time": "MORNING",
+        "at": "10:30AM",
+        "draw_no": "37914",
+        "number": "4",
+        "label": "Egg",
+        "colors": [
+          "gold",
           "white"
         ]
       }
