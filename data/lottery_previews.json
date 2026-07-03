@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-07-03T19:44:50.250Z",
+  "last_updated_utc": "2026-07-03T20:45:35.183Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -35,6 +35,17 @@
         "label": "Old Lady",
         "colors": [
           "white",
+          "red"
+        ]
+      },
+      {
+        "time": "MIDAFTERNOON",
+        "at": "",
+        "draw_no": "37922",
+        "number": "17",
+        "label": "Chinese Man",
+        "colors": [
+          "gold",
           "red"
         ]
       }
