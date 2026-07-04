@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-07-04T18:42:10.248Z",
+  "last_updated_utc": "2026-07-04T19:56:15.986Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -24,6 +24,17 @@
         "label": "Big House",
         "colors": [
           "gold",
+          "white"
+        ]
+      },
+      {
+        "time": "MIDDAY",
+        "at": "",
+        "draw_no": "37927",
+        "number": "13",
+        "label": "Police",
+        "colors": [
+          "white",
           "white"
         ]
       }
