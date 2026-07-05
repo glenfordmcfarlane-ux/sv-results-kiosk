@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-07-05T17:49:20.737Z",
+  "last_updated_utc": "2026-07-05T18:52:18.131Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -22,6 +22,17 @@
         "draw_no": "37932",
         "number": "29",
         "label": "Parson",
+        "colors": [
+          "white",
+          "red"
+        ]
+      },
+      {
+        "time": "MIDDAY",
+        "at": "",
+        "draw_no": "37933",
+        "number": "20",
+        "label": "Sick Person",
         "colors": [
           "white",
           "red"
