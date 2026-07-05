@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-07-05T00:12:41.324Z",
+  "last_updated_utc": "2026-07-05T04:30:57.782Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -59,6 +59,17 @@
           "white",
           "red"
         ]
+      },
+      {
+        "time": "EVENING",
+        "at": "8:25PM",
+        "draw_no": "37930",
+        "number": "7",
+        "label": "Married Woman",
+        "colors": [
+          "gold",
+          "white"
+        ]
       }
     ]
   },
@@ -66,14 +77,14 @@
     "title": "Lotto",
     "drawDate": "",
     "numbers": [
-      "13",
+      "9",
+      "14",
       "16",
-      "23",
-      "25",
-      "30",
-      "38"
+      "21",
+      "27",
+      "34"
     ],
-    "bonus": "18",
+    "bonus": "32",
     "next_jackpot": null
   },
   "super_lotto": {
