@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-07-06T20:29:19.090Z",
+  "last_updated_utc": "2026-07-06T21:57:04.392Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -36,6 +36,17 @@
         "colors": [
           "white",
           "red"
+        ]
+      },
+      {
+        "time": "MIDAFTERNOON",
+        "at": "",
+        "draw_no": "37940",
+        "number": "18",
+        "label": "Race Horse",
+        "colors": [
+          "white",
+          "white"
         ]
       }
     ]
