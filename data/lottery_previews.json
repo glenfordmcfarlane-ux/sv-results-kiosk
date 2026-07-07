@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-07-07T20:18:20.536Z",
+  "last_updated_utc": "2026-07-07T21:46:31.391Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -36,6 +36,17 @@
         "colors": [
           "white",
           "red"
+        ]
+      },
+      {
+        "time": "MIDAFTERNOON",
+        "at": "",
+        "draw_no": "37946",
+        "number": "14",
+        "label": "Mouth",
+        "colors": [
+          "white",
+          "white"
         ]
       }
     ]
