@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-07-09T18:29:18.908Z",
+  "last_updated_utc": "2026-07-09T20:23:32.917Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -25,6 +25,17 @@
         "colors": [
           "white",
           "white"
+        ]
+      },
+      {
+        "time": "MIDDAY",
+        "at": "",
+        "draw_no": "37957",
+        "number": "11",
+        "label": "Dog",
+        "colors": [
+          "white",
+          "red"
         ]
       }
     ]
