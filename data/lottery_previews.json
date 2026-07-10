@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-07-10T13:19:40.023Z",
+  "last_updated_utc": "2026-07-10T15:41:25.196Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,66 +8,11 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "37955",
-        "number": "35",
-        "label": "Goat",
+        "draw_no": "37961",
+        "number": "25",
+        "label": "John Crow",
         "colors": [
           "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MORNING",
-        "at": "10:30AM",
-        "draw_no": "37956",
-        "number": "34",
-        "label": "Baby",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "37957",
-        "number": "11",
-        "label": "Dog",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "37958",
-        "number": "16",
-        "label": "Young Girl",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "37959",
-        "number": "31",
-        "label": "Lizard",
-        "colors": [
-          "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "37960",
-        "number": "10",
-        "label": "Small House",
-        "colors": [
-          "gold",
           "white"
         ]
       }
