@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-07-14T00:54:47.795Z",
+  "last_updated_utc": "2026-07-14T03:54:48.237Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -58,6 +58,17 @@
         "colors": [
           "white",
           "red"
+        ]
+      },
+      {
+        "time": "EVENING",
+        "at": "8:25PM",
+        "draw_no": "37984",
+        "number": "28",
+        "label": "Fowl",
+        "colors": [
+          "white",
+          "white"
         ]
       }
     ]
