@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-07-15T19:56:44.380Z",
+  "last_updated_utc": "2026-07-15T21:02:35.536Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -35,6 +35,17 @@
         "label": "Small House",
         "colors": [
           "gold",
+          "white"
+        ]
+      },
+      {
+        "time": "MIDAFTERNOON",
+        "at": "",
+        "draw_no": "37994",
+        "number": "2",
+        "label": "Small Fire",
+        "colors": [
+          "white",
           "white"
         ]
       }
