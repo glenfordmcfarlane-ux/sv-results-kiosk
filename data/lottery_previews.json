@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-07-18T18:08:18.266Z",
+  "last_updated_utc": "2026-07-18T19:29:05.021Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -24,6 +24,17 @@
         "label": "Bad Girl",
         "colors": [
           "gold",
+          "white"
+        ]
+      },
+      {
+        "time": "MIDDAY",
+        "at": "",
+        "draw_no": "38011",
+        "number": "31",
+        "label": "Lizard",
+        "colors": [
+          "white",
           "white"
         ]
       }
