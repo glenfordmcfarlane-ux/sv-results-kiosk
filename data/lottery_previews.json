@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-07-19T00:06:39.592Z",
+  "last_updated_utc": "2026-07-19T03:48:32.552Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -59,6 +59,17 @@
           "white",
           "white"
         ]
+      },
+      {
+        "time": "EVENING",
+        "at": "8:25PM",
+        "draw_no": "38014",
+        "number": "23",
+        "label": "Black Man",
+        "colors": [
+          "gold",
+          "red"
+        ]
       }
     ]
   },
@@ -68,12 +79,12 @@
     "numbers": [
       "1",
       "6",
-      "13",
-      "15",
-      "29",
-      "36"
+      "19",
+      "31",
+      "33",
+      "35"
     ],
-    "bonus": "12",
+    "bonus": "29",
     "next_jackpot": null
   },
   "super_lotto": {
