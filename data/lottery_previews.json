@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-07-23T13:08:04.144Z",
+  "last_updated_utc": "2026-07-23T15:22:17.042Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,67 +8,12 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "38033",
-        "number": "13",
-        "label": "Police",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "MORNING",
-        "at": "10:30AM",
-        "draw_no": "38034",
-        "number": "1",
-        "label": "Duppy",
-        "colors": [
-          "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "38035",
-        "number": "14",
-        "label": "Mouth",
+        "draw_no": "38039",
+        "number": "18",
+        "label": "Race Horse",
         "colors": [
           "white",
           "red"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "38036",
-        "number": "13",
-        "label": "Police",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "38037",
-        "number": "27",
-        "label": "Big Fire",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "38038",
-        "number": "5",
-        "label": "Thief",
-        "colors": [
-          "white",
-          "white"
         ]
       }
     ]
@@ -77,14 +22,14 @@
     "title": "Lotto",
     "drawDate": "",
     "numbers": [
-      "1",
-      "6",
-      "19",
-      "31",
-      "33",
-      "35"
+      "4",
+      "10",
+      "11",
+      "24",
+      "25",
+      "38"
     ],
-    "bonus": "29",
+    "bonus": "13",
     "next_jackpot": null
   },
   "super_lotto": {
