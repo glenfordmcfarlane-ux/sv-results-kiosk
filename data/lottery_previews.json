@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-07-26T16:13:52.243Z",
+  "last_updated_utc": "2026-07-26T17:18:28.876Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -13,6 +13,17 @@
         "label": "Small Fire",
         "colors": [
           "white",
+          "red"
+        ]
+      },
+      {
+        "time": "MORNING",
+        "at": "10:30AM",
+        "draw_no": "38058",
+        "number": "13",
+        "label": "Police",
+        "colors": [
+          "gold",
           "red"
         ]
       }
