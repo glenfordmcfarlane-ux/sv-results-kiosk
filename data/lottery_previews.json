@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-07-29T14:29:30.489Z",
+  "last_updated_utc": "2026-07-29T16:03:33.017Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,67 +8,12 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "38069",
-        "number": "7",
-        "label": "Married Woman",
-        "colors": [
-          "gold",
-          "white"
-        ]
-      },
-      {
-        "time": "MORNING",
-        "at": "10:30AM",
-        "draw_no": "38070",
-        "number": "2",
-        "label": "Small Fire",
-        "colors": [
-          "gold",
-          "white"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "38071",
-        "number": "18",
-        "label": "Race Horse",
+        "draw_no": "38075",
+        "number": "14",
+        "label": "Mouth",
         "colors": [
           "white",
-          "white"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "38072",
-        "number": "6",
-        "label": "Strong Man",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "38073",
-        "number": "16",
-        "label": "Young Girl",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "38074",
-        "number": "19",
-        "label": "Silver Money",
-        "colors": [
-          "white",
-          "white"
+          "red"
         ]
       }
     ]
