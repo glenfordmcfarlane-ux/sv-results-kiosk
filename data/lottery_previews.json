@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-07-30T13:05:08.634Z",
+  "last_updated_utc": "2026-07-30T15:20:48.041Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,66 +8,11 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "38075",
-        "number": "14",
-        "label": "Mouth",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MORNING",
-        "at": "10:30AM",
-        "draw_no": "38076",
-        "number": "34",
-        "label": "Baby",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "38077",
-        "number": "8",
-        "label": "Belly",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "38078",
-        "number": "35",
-        "label": "Goat",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "38079",
-        "number": "10",
-        "label": "Small House",
+        "draw_no": "38081",
+        "number": "4",
+        "label": "Egg",
         "colors": [
           "gold",
-          "white"
-        ]
-      },
-      {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "38080",
-        "number": "30",
-        "label": "Fish",
-        "colors": [
-          "white",
           "white"
         ]
       }
