@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-07-29T23:45:08.062Z",
+  "last_updated_utc": "2026-07-30T01:03:44.194Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -47,6 +47,17 @@
         "colors": [
           "white",
           "red"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "38079",
+        "number": "10",
+        "label": "Small House",
+        "colors": [
+          "gold",
+          "white"
         ]
       }
     ]
