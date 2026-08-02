@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-08-02T13:53:31.844Z",
+  "last_updated_utc": "2026-08-02T14:56:57.173Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,67 +8,12 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "38093",
-        "number": "6",
-        "label": "Strong Man",
-        "colors": [
-          "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "MORNING",
-        "at": "10:30AM",
-        "draw_no": "38094",
-        "number": "24",
-        "label": "Fresh Water",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "38095",
-        "number": "29",
-        "label": "Parson",
+        "draw_no": "38099",
+        "number": "4",
+        "label": "Egg",
         "colors": [
           "gold",
           "white"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "38096",
-        "number": "29",
-        "label": "Parson",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "38097",
-        "number": "29",
-        "label": "Parson",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "38098",
-        "number": "15",
-        "label": "Rat",
-        "colors": [
-          "gold",
-          "red"
         ]
       }
     ]
