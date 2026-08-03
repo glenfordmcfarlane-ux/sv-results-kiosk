@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-08-03T14:04:36.987Z",
+  "last_updated_utc": "2026-08-03T16:36:59.617Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,9 +8,9 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "38099",
-        "number": "4",
-        "label": "Egg",
+        "draw_no": "38105",
+        "number": "26",
+        "label": "White Man",
         "colors": [
           "gold",
           "white"
@@ -19,55 +19,11 @@
       {
         "time": "MORNING",
         "at": "10:30AM",
-        "draw_no": "38100",
-        "number": "27",
-        "label": "Big Fire",
+        "draw_no": "38106",
+        "number": "17",
+        "label": "Chinese Man",
         "colors": [
           "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "38101",
-        "number": "22",
-        "label": "White Woman",
-        "colors": [
-          "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "38102",
-        "number": "34",
-        "label": "Baby",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "38103",
-        "number": "8",
-        "label": "Belly",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "38104",
-        "number": "8",
-        "label": "Belly",
-        "colors": [
-          "gold",
           "white"
         ]
       }
