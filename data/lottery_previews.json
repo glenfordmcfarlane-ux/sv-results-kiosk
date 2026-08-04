@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-08-03T23:40:53.175Z",
+  "last_updated_utc": "2026-08-04T01:06:34.448Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -47,6 +47,17 @@
         "colors": [
           "white",
           "red"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "38109",
+        "number": "1",
+        "label": "Duppy",
+        "colors": [
+          "white",
+          "white"
         ]
       }
     ]
