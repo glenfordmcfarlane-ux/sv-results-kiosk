@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-08-10T02:04:31.893Z",
+  "last_updated_utc": "2026-08-10T04:04:18.094Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -58,6 +58,17 @@
         "colors": [
           "gold",
           "gold"
+        ]
+      },
+      {
+        "time": "EVENING",
+        "at": "8:25PM",
+        "draw_no": "38146",
+        "number": "5",
+        "label": "Thief",
+        "colors": [
+          "gold",
+          "white"
         ]
       }
     ]
