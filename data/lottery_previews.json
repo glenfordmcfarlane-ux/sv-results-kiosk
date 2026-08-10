@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-08-10T14:40:43.289Z",
+  "last_updated_utc": "2026-08-10T15:37:34.998Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,67 +8,12 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "38141",
-        "number": "32",
-        "label": "Gold",
-        "colors": [
-          "gold",
-          "white"
-        ]
-      },
-      {
-        "time": "MORNING",
-        "at": "10:30AM",
-        "draw_no": "38142",
-        "number": "25",
-        "label": "John Crow",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "38143",
-        "number": "34",
-        "label": "Baby",
+        "draw_no": "38147",
+        "number": "31",
+        "label": "Lizard",
         "colors": [
           "white",
           "red"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "38144",
-        "number": "3",
-        "label": "Dead",
-        "colors": [
-          "gold",
-          "white"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "38145",
-        "number": "32",
-        "label": "Gold",
-        "colors": [
-          "gold",
-          "gold"
-        ]
-      },
-      {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "38146",
-        "number": "5",
-        "label": "Thief",
-        "colors": [
-          "gold",
-          "white"
         ]
       }
     ]
