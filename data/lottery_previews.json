@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-08-11T14:42:17.219Z",
+  "last_updated_utc": "2026-08-11T15:40:43.073Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,66 +8,11 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "38147",
-        "number": "31",
-        "label": "Lizard",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MORNING",
-        "at": "10:30AM",
-        "draw_no": "38148",
-        "number": "36",
-        "label": "Old Lady",
-        "colors": [
-          "gold",
-          "white"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "38149",
-        "number": "9",
-        "label": "Cow",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "38150",
+        "draw_no": "38153",
         "number": "8",
         "label": "Belly",
         "colors": [
           "gold",
-          "white"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "38151",
-        "number": "24",
-        "label": "Fresh Water",
-        "colors": [
-          "gold",
-          "white"
-        ]
-      },
-      {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "38152",
-        "number": "4",
-        "label": "Egg",
-        "colors": [
-          "white",
           "white"
         ]
       }
