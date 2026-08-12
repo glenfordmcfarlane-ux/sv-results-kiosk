@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-08-12T03:12:58.361Z",
+  "last_updated_utc": "2026-08-12T05:04:12.583Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -55,6 +55,17 @@
         "draw_no": "38157",
         "number": "20",
         "label": "Sick Person",
+        "colors": [
+          "white",
+          "white"
+        ]
+      },
+      {
+        "time": "EVENING",
+        "at": "8:25PM",
+        "draw_no": "38158",
+        "number": "6",
+        "label": "Strong Man",
         "colors": [
           "white",
           "white"
