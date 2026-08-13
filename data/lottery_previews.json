@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-08-13T13:43:15.863Z",
+  "last_updated_utc": "2026-08-13T14:45:19.709Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,64 +8,9 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "38159",
-        "number": "15",
-        "label": "Rat",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MORNING",
-        "at": "10:30AM",
-        "draw_no": "38160",
-        "number": "27",
-        "label": "Big Fire",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "38161",
-        "number": "28",
-        "label": "Fowl",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "38162",
-        "number": "5",
-        "label": "Thief",
-        "colors": [
-          "gold",
-          "white"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "38163",
-        "number": "8",
-        "label": "Belly",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "38164",
-        "number": "24",
-        "label": "Fresh Water",
+        "draw_no": "38165",
+        "number": "25",
+        "label": "John Crow",
         "colors": [
           "white",
           "white"
@@ -77,14 +22,14 @@
     "title": "Lotto",
     "drawDate": "",
     "numbers": [
-      "2",
+      "5",
+      "7",
+      "10",
       "12",
-      "14",
-      "20",
-      "24",
-      "27"
+      "23",
+      "31"
     ],
-    "bonus": "8",
+    "bonus": "37",
     "next_jackpot": null
   },
   "super_lotto": {
