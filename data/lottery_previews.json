@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-08-13T22:54:12.542Z",
+  "last_updated_utc": "2026-08-13T23:36:38.766Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -47,6 +47,17 @@
         "colors": [
           "gold",
           "red"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "38169",
+        "number": "32",
+        "label": "Gold",
+        "colors": [
+          "gold",
+          "white"
         ]
       }
     ]
