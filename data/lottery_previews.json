@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-08-16T01:51:19.723Z",
+  "last_updated_utc": "2026-08-16T02:50:24.135Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -58,6 +58,17 @@
         "colors": [
           "white",
           "white"
+        ]
+      },
+      {
+        "time": "EVENING",
+        "at": "8:25PM",
+        "draw_no": "38182",
+        "number": "12",
+        "label": "Head",
+        "colors": [
+          "white",
+          "red"
         ]
       }
     ]
