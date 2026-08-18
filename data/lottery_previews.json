@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-08-18T14:08:38.235Z",
+  "last_updated_utc": "2026-08-18T14:50:35.391Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,67 +8,12 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "38189",
-        "number": "2",
-        "label": "Small Fire",
+        "draw_no": "38195",
+        "number": "32",
+        "label": "Gold",
         "colors": [
           "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "MORNING",
-        "at": "10:30AM",
-        "draw_no": "38190",
-        "number": "14",
-        "label": "Mouth",
-        "colors": [
-          "white",
           "white"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "38191",
-        "number": "23",
-        "label": "Black Man",
-        "colors": [
-          "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "38192",
-        "number": "9",
-        "label": "Cow",
-        "colors": [
-          "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "38193",
-        "number": "3",
-        "label": "Dead",
-        "colors": [
-          "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "38194",
-        "number": "12",
-        "label": "Head",
-        "colors": [
-          "white",
-          "red"
         ]
       }
     ]
