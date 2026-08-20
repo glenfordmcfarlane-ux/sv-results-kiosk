@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-08-20T14:03:18.428Z",
+  "last_updated_utc": "2026-08-20T14:48:53.085Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,67 +8,12 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "38201",
-        "number": "1",
-        "label": "Duppy",
+        "draw_no": "38207",
+        "number": "35",
+        "label": "Goat",
         "colors": [
-          "white",
+          "gold",
           "white"
-        ]
-      },
-      {
-        "time": "MORNING",
-        "at": "10:30AM",
-        "draw_no": "38202",
-        "number": "23",
-        "label": "Black Man",
-        "colors": [
-          "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "38203",
-        "number": "8",
-        "label": "Belly",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "38204",
-        "number": "12",
-        "label": "Head",
-        "colors": [
-          "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "38205",
-        "number": "28",
-        "label": "Fowl",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "38206",
-        "number": "14",
-        "label": "Mouth",
-        "colors": [
-          "gold",
-          "red"
         ]
       }
     ]
