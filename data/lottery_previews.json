@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-08-20T18:00:46.364Z",
+  "last_updated_utc": "2026-08-20T18:52:38.299Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -22,6 +22,17 @@
         "draw_no": "38208",
         "number": "33",
         "label": "Big House",
+        "colors": [
+          "white",
+          "red"
+        ]
+      },
+      {
+        "time": "MIDDAY",
+        "at": "",
+        "draw_no": "38209",
+        "number": "29",
+        "label": "Parson",
         "colors": [
           "white",
           "red"
