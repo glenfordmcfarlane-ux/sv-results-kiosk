@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-08-23T14:49:00.524Z",
+  "last_updated_utc": "2026-08-23T15:08:21.017Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,67 +8,12 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "38219",
+        "draw_no": "38225",
         "number": "15",
         "label": "Rat",
         "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MORNING",
-        "at": "10:30AM",
-        "draw_no": "38220",
-        "number": "31",
-        "label": "Lizard",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "38221",
-        "number": "9",
-        "label": "Cow",
-        "colors": [
-          "white",
+          "gold",
           "white"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "38222",
-        "number": "21",
-        "label": "Bad Girl",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "38223",
-        "number": "14",
-        "label": "Mouth",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "38224",
-        "number": "21",
-        "label": "Bad Girl",
-        "colors": [
-          "white",
-          "red"
         ]
       }
     ]
