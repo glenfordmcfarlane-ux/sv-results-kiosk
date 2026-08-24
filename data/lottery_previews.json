@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-08-24T18:02:22.751Z",
+  "last_updated_utc": "2026-08-24T18:53:30.347Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -25,6 +25,17 @@
         "colors": [
           "white",
           "red"
+        ]
+      },
+      {
+        "time": "MIDDAY",
+        "at": "",
+        "draw_no": "38233",
+        "number": "7",
+        "label": "Married Woman",
+        "colors": [
+          "gold",
+          "white"
         ]
       }
     ]
