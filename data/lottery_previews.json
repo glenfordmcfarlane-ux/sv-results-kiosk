@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-08-24T20:19:51.348Z",
+  "last_updated_utc": "2026-08-24T20:53:21.404Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -36,6 +36,17 @@
         "colors": [
           "gold",
           "white"
+        ]
+      },
+      {
+        "time": "MIDAFTERNOON",
+        "at": "",
+        "draw_no": "38234",
+        "number": "35",
+        "label": "Goat",
+        "colors": [
+          "white",
+          "red"
         ]
       }
     ]
