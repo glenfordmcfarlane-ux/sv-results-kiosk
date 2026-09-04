@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-09-04T13:29:15.954Z",
+  "last_updated_utc": "2026-09-04T19:24:51.360Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,67 +8,34 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "38291",
-        "number": "25",
-        "label": "John Crow",
+        "draw_no": "38297",
+        "number": "7",
+        "label": "Married Woman",
         "colors": [
           "white",
-          "red"
+          "white"
         ]
       },
       {
         "time": "MORNING",
         "at": "10:30AM",
-        "draw_no": "38292",
-        "number": "23",
-        "label": "Black Man",
+        "draw_no": "38298",
+        "number": "27",
+        "label": "Big Fire",
         "colors": [
           "white",
-          "white"
+          "red"
         ]
       },
       {
         "time": "MIDDAY",
         "at": "",
-        "draw_no": "38293",
-        "number": "6",
-        "label": "Strong Man",
+        "draw_no": "38299",
+        "number": "27",
+        "label": "Big Fire",
         "colors": [
           "white",
           "red"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "38294",
-        "number": "18",
-        "label": "Race Horse",
-        "colors": [
-          "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "38295",
-        "number": "30",
-        "label": "Fish",
-        "colors": [
-          "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "38296",
-        "number": "32",
-        "label": "Gold",
-        "colors": [
-          "gold",
-          "white"
         ]
       }
     ]
