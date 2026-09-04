@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-09-03T22:37:03.276Z",
+  "last_updated_utc": "2026-09-04T00:25:14.175Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -42,8 +42,19 @@
         "time": "MIDAFTERNOON",
         "at": "",
         "draw_no": "38294",
-        "number": "19",
-        "label": "Silver Money",
+        "number": "18",
+        "label": "Race Horse",
+        "colors": [
+          "gold",
+          "red"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "38295",
+        "number": "30",
+        "label": "Fish",
         "colors": [
           "gold",
           "red"
