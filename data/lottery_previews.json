@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-09-05T12:54:36.016Z",
+  "last_updated_utc": "2026-09-05T15:45:46.242Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,66 +8,11 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "38297",
-        "number": "7",
-        "label": "Married Woman",
+        "draw_no": "38303",
+        "number": "25",
+        "label": "John Crow",
         "colors": [
           "white",
-          "white"
-        ]
-      },
-      {
-        "time": "MORNING",
-        "at": "10:30AM",
-        "draw_no": "38298",
-        "number": "27",
-        "label": "Big Fire",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "38299",
-        "number": "27",
-        "label": "Big Fire",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "38300",
-        "number": "2",
-        "label": "Small Fire",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "38301",
-        "number": "2",
-        "label": "Small Fire",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "38302",
-        "number": "15",
-        "label": "Rat",
-        "colors": [
-          "gold",
           "red"
         ]
       }
