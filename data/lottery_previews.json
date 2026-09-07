@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-09-07T00:09:37.823Z",
+  "last_updated_utc": "2026-09-07T04:39:38.344Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -46,6 +46,28 @@
         "label": "Big Fire",
         "colors": [
           "white",
+          "red"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "38313",
+        "number": "33",
+        "label": "Big House",
+        "colors": [
+          "white",
+          "white"
+        ]
+      },
+      {
+        "time": "EVENING",
+        "at": "8:25PM",
+        "draw_no": "38314",
+        "number": "4",
+        "label": "Egg",
+        "colors": [
+          "gold",
           "red"
         ]
       }
