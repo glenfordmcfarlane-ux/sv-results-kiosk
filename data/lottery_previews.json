@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-09-09T20:02:53.914Z",
+  "last_updated_utc": "2026-09-09T22:28:38.258Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -35,6 +35,17 @@
         "label": "Dead",
         "colors": [
           "white",
+          "white"
+        ]
+      },
+      {
+        "time": "MIDAFTERNOON",
+        "at": "",
+        "draw_no": "38330",
+        "number": "22",
+        "label": "White Woman",
+        "colors": [
+          "gold",
           "white"
         ]
       }
