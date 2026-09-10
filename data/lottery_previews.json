@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-09-10T00:29:22.949Z",
+  "last_updated_utc": "2026-09-10T05:07:41.072Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -46,6 +46,17 @@
         "label": "White Woman",
         "colors": [
           "gold",
+          "white"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "38331",
+        "number": "16",
+        "label": "Young Girl",
+        "colors": [
+          "white",
           "white"
         ]
       }
