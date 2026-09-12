@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-09-12T17:47:52.908Z",
+  "last_updated_utc": "2026-09-12T19:40:28.815Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -24,6 +24,17 @@
         "label": "Bad Girl",
         "colors": [
           "gold",
+          "white"
+        ]
+      },
+      {
+        "time": "MIDDAY",
+        "at": "",
+        "draw_no": "38347",
+        "number": "29",
+        "label": "Parson",
+        "colors": [
+          "white",
           "white"
         ]
       }
