@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-09-16T19:57:17.389Z",
+  "last_updated_utc": "2026-09-16T22:46:37.875Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -35,6 +35,17 @@
         "label": "Sick Person",
         "colors": [
           "gold",
+          "red"
+        ]
+      },
+      {
+        "time": "MIDAFTERNOON",
+        "at": "",
+        "draw_no": "38372",
+        "number": "17",
+        "label": "Chinese Man",
+        "colors": [
+          "white",
           "red"
         ]
       }
