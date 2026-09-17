@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-09-17T15:11:54.947Z",
+  "last_updated_utc": "2026-09-17T19:02:46.655Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -14,6 +14,28 @@
         "colors": [
           "gold",
           "white"
+        ]
+      },
+      {
+        "time": "MORNING",
+        "at": "10:30AM",
+        "draw_no": "38376",
+        "number": "6",
+        "label": "Strong Man",
+        "colors": [
+          "gold",
+          "red"
+        ]
+      },
+      {
+        "time": "MIDDAY",
+        "at": "",
+        "draw_no": "38377",
+        "number": "23",
+        "label": "Black Man",
+        "colors": [
+          "white",
+          "red"
         ]
       }
     ]
