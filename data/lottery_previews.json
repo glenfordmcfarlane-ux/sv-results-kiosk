@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-09-18T19:38:15.131Z",
+  "last_updated_utc": "2026-09-18T21:51:31.136Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -35,6 +35,17 @@
         "label": "White Man",
         "colors": [
           "gold",
+          "red"
+        ]
+      },
+      {
+        "time": "MIDAFTERNOON",
+        "at": "",
+        "draw_no": "38384",
+        "number": "28",
+        "label": "Fowl",
+        "colors": [
+          "white",
           "red"
         ]
       }
