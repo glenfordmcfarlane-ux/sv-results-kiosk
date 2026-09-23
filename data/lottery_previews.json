@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-09-23T17:27:16.140Z",
+  "last_updated_utc": "2026-09-23T20:37:12.654Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -22,6 +22,28 @@
         "draw_no": "38412",
         "number": "34",
         "label": "Baby",
+        "colors": [
+          "white",
+          "white"
+        ]
+      },
+      {
+        "time": "MIDDAY",
+        "at": "",
+        "draw_no": "38413",
+        "number": "24",
+        "label": "Fresh Water",
+        "colors": [
+          "gold",
+          "red"
+        ]
+      },
+      {
+        "time": "MIDAFTERNOON",
+        "at": "",
+        "draw_no": "38414",
+        "number": "35",
+        "label": "Goat",
         "colors": [
           "white",
           "white"
