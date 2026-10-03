@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-10-03T01:47:42.608Z",
+  "last_updated_utc": "2026-10-03T07:08:29.597Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -59,6 +59,17 @@
           "white",
           "white"
         ]
+      },
+      {
+        "time": "EVENING",
+        "at": "8:25PM",
+        "draw_no": "38470",
+        "number": "25",
+        "label": "John Crow",
+        "colors": [
+          "white",
+          "white"
+        ]
       }
     ]
   },
@@ -80,13 +91,13 @@
     "title": "Super Lotto",
     "drawDate": "",
     "numbers": [
-      "3",
-      "11",
+      "5",
+      "7",
       "15",
-      "21",
-      "33"
+      "29",
+      "32"
     ],
-    "bonus": "1",
+    "bonus": "3",
     "next_jackpot": null
   }
 }
