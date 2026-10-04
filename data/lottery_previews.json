@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-10-03T22:16:53.037Z",
+  "last_updated_utc": "2026-10-04T00:45:25.746Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -46,6 +46,17 @@
         "label": "Bad Girl",
         "colors": [
           "white",
+          "white"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "38475",
+        "number": "19",
+        "label": "Silver Money",
+        "colors": [
+          "gold",
           "white"
         ]
       }
