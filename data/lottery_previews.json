@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-10-06T21:10:13.846Z",
+  "last_updated_utc": "2026-10-07T00:41:55.280Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -33,6 +33,28 @@
         "draw_no": "38491",
         "number": "22",
         "label": "White Woman",
+        "colors": [
+          "white",
+          "white"
+        ]
+      },
+      {
+        "time": "MIDAFTERNOON",
+        "at": "",
+        "draw_no": "38492",
+        "number": "18",
+        "label": "Race Horse",
+        "colors": [
+          "gold",
+          "white"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "38493",
+        "number": "7",
+        "label": "Married Woman",
         "colors": [
           "white",
           "white"
