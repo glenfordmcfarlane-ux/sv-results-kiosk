@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-10-08T10:24:30.701Z",
+  "last_updated_utc": "2026-10-08T17:28:31.733Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,64 +8,20 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "38495",
-        "number": "25",
-        "label": "John Crow",
+        "draw_no": "38501",
+        "number": "11",
+        "label": "Dog",
         "colors": [
-          "white",
+          "gold",
           "red"
         ]
       },
       {
         "time": "MORNING",
         "at": "10:30AM",
-        "draw_no": "38496",
-        "number": "17",
-        "label": "Chinese Man",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "38497",
-        "number": "2",
-        "label": "Small Fire",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "38498",
-        "number": "15",
-        "label": "Rat",
-        "colors": [
-          "gold",
-          "white"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "38499",
-        "number": "17",
-        "label": "Chinese Man",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "38500",
-        "number": "14",
-        "label": "Mouth",
+        "draw_no": "38502",
+        "number": "6",
+        "label": "Strong Man",
         "colors": [
           "white",
           "red"
