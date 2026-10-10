@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-10-10T00:43:23.984Z",
+  "last_updated_utc": "2026-10-10T12:52:28.302Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -63,12 +63,12 @@
       {
         "time": "EVENING",
         "at": "8:25PM",
-        "draw_no": "38506",
-        "number": "32",
-        "label": "Gold",
+        "draw_no": "38512",
+        "number": "27",
+        "label": "Big Fire",
         "colors": [
           "gold",
-          "gold"
+          "white"
         ]
       }
     ]
