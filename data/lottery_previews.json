@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-10-18T13:30:11.617Z",
+  "last_updated_utc": "2026-10-18T16:47:31.401Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,64 +8,20 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "38555",
-        "number": "8",
-        "label": "Belly",
+        "draw_no": "38561",
+        "number": "25",
+        "label": "John Crow",
         "colors": [
           "gold",
-          "white"
+          "red"
         ]
       },
       {
         "time": "MORNING",
         "at": "10:30AM",
-        "draw_no": "38556",
-        "number": "5",
-        "label": "Thief",
-        "colors": [
-          "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "38557",
-        "number": "17",
-        "label": "Chinese Man",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "38558",
-        "number": "12",
-        "label": "Head",
-        "colors": [
-          "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "38559",
-        "number": "8",
-        "label": "Belly",
-        "colors": [
-          "gold",
-          "white"
-        ]
-      },
-      {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "38560",
-        "number": "4",
-        "label": "Egg",
+        "draw_no": "38562",
+        "number": "13",
+        "label": "Police",
         "colors": [
           "white",
           "red"
@@ -77,14 +33,14 @@
     "title": "Lotto",
     "drawDate": "",
     "numbers": [
-      "4",
-      "5",
-      "10",
+      "9",
       "14",
-      "28",
-      "30"
+      "16",
+      "22",
+      "25",
+      "34"
     ],
-    "bonus": "2",
+    "bonus": "37",
     "next_jackpot": null
   },
   "super_lotto": {
