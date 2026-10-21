@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-10-21T20:51:17.424Z",
+  "last_updated_utc": "2026-10-21T23:46:15.742Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -44,6 +44,17 @@
         "draw_no": "38582",
         "number": "3",
         "label": "Dead",
+        "colors": [
+          "white",
+          "red"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "38583",
+        "number": "6",
+        "label": "Strong Man",
         "colors": [
           "white",
           "red"
