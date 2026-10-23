@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-10-23T14:22:30.056Z",
+  "last_updated_utc": "2026-10-23T18:32:31.245Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,9 +8,9 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "38585",
-        "number": "2",
-        "label": "Small Fire",
+        "draw_no": "38591",
+        "number": "13",
+        "label": "Police",
         "colors": [
           "white",
           "white"
@@ -19,42 +19,9 @@
       {
         "time": "MORNING",
         "at": "10:30AM",
-        "draw_no": "38586",
-        "number": "12",
-        "label": "Head",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "38587",
-        "number": "9",
-        "label": "Cow",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "38588",
-        "number": "9",
-        "label": "Cow",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "38589",
-        "number": "24",
-        "label": "Fresh Water",
+        "draw_no": "38592",
+        "number": "14",
+        "label": "Mouth",
         "colors": [
           "white",
           "red"
