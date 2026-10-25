@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-10-25T12:07:08.873Z",
+  "last_updated_utc": "2026-10-25T16:09:20.357Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,67 +8,12 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "38597",
-        "number": "15",
-        "label": "Rat",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MORNING",
-        "at": "10:30AM",
-        "draw_no": "38598",
-        "number": "18",
-        "label": "Race Horse",
-        "colors": [
-          "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "38599",
-        "number": "31",
-        "label": "Lizard",
+        "draw_no": "38603",
+        "number": "6",
+        "label": "Strong Man",
         "colors": [
           "white",
           "white"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "38600",
-        "number": "35",
-        "label": "Goat",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "38601",
-        "number": "1",
-        "label": "Duppy",
-        "colors": [
-          "gold",
-          "white"
-        ]
-      },
-      {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "38602",
-        "number": "11",
-        "label": "Dog",
-        "colors": [
-          "white",
-          "red"
         ]
       }
     ]
@@ -77,14 +22,14 @@
     "title": "Lotto",
     "drawDate": "",
     "numbers": [
+      "1",
+      "2",
       "12",
-      "23",
-      "29",
+      "26",
       "30",
-      "35",
-      "38"
+      "37"
     ],
-    "bonus": "21",
+    "bonus": "7",
     "next_jackpot": null
   },
   "super_lotto": {
