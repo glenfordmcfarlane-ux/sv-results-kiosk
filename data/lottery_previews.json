@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-10-26T01:38:04.128Z",
+  "last_updated_utc": "2026-10-26T06:57:14.537Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -44,6 +44,17 @@
         "draw_no": "38606",
         "number": "8",
         "label": "Belly",
+        "colors": [
+          "white",
+          "white"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "38607",
+        "number": "18",
+        "label": "Race Horse",
         "colors": [
           "white",
           "white"
