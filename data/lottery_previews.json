@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-10-26T19:51:17.427Z",
+  "last_updated_utc": "2026-10-26T23:25:21.392Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -36,6 +36,17 @@
         "colors": [
           "white",
           "white"
+        ]
+      },
+      {
+        "time": "MIDAFTERNOON",
+        "at": "",
+        "draw_no": "38612",
+        "number": "23",
+        "label": "Black Man",
+        "colors": [
+          "gold",
+          "red"
         ]
       }
     ]
