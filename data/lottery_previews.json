@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-10-27T14:21:12.297Z",
+  "last_updated_utc": "2026-10-27T19:29:54.901Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,9 +8,9 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "38609",
-        "number": "13",
-        "label": "Police",
+        "draw_no": "38615",
+        "number": "20",
+        "label": "Sick Person",
         "colors": [
           "white",
           "white"
@@ -19,56 +19,23 @@
       {
         "time": "MORNING",
         "at": "10:30AM",
-        "draw_no": "38610",
-        "number": "3",
-        "label": "Dead",
+        "draw_no": "38616",
+        "number": "12",
+        "label": "Head",
         "colors": [
           "gold",
-          "white"
+          "red"
         ]
       },
       {
         "time": "MIDDAY",
         "at": "",
-        "draw_no": "38611",
-        "number": "13",
-        "label": "Police",
+        "draw_no": "38617",
+        "number": "12",
+        "label": "Head",
         "colors": [
           "white",
           "white"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "38612",
-        "number": "23",
-        "label": "Black Man",
-        "colors": [
-          "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "38613",
-        "number": "36",
-        "label": "Old Lady",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "38614",
-        "number": "2",
-        "label": "Small Fire",
-        "colors": [
-          "white",
-          "red"
         ]
       }
     ]
