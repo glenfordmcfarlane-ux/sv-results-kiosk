@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-11-01T14:24:05.422Z",
+  "last_updated_utc": "2026-11-01T19:01:30.330Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,67 +8,34 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "38639",
-        "number": "25",
-        "label": "John Crow",
+        "draw_no": "38645",
+        "number": "26",
+        "label": "White Man",
         "colors": [
           "white",
-          "red"
+          "white"
         ]
       },
       {
         "time": "MORNING",
         "at": "10:30AM",
-        "draw_no": "38640",
-        "number": "8",
-        "label": "Belly",
+        "draw_no": "38646",
+        "number": "17",
+        "label": "Chinese Man",
         "colors": [
-          "white",
+          "gold",
           "white"
         ]
       },
       {
         "time": "MIDDAY",
         "at": "",
-        "draw_no": "38641",
-        "number": "28",
-        "label": "Fowl",
+        "draw_no": "38647",
+        "number": "12",
+        "label": "Head",
         "colors": [
           "white",
           "white"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "38642",
-        "number": "17",
-        "label": "Chinese Man",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "38643",
-        "number": "23",
-        "label": "Black Man",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "38644",
-        "number": "22",
-        "label": "White Woman",
-        "colors": [
-          "white",
-          "red"
         ]
       }
     ]
