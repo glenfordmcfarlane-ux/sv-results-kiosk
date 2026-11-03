@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-11-03T08:00:50.513Z",
+  "last_updated_utc": "2026-11-03T16:06:11.191Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,67 +8,12 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "38651",
-        "number": "26",
-        "label": "White Man",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MORNING",
-        "at": "10:30AM",
-        "draw_no": "38652",
-        "number": "18",
-        "label": "Race Horse",
-        "colors": [
-          "gold",
-          "white"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "38653",
-        "number": "12",
-        "label": "Head",
+        "draw_no": "38657",
+        "number": "27",
+        "label": "Big Fire",
         "colors": [
           "white",
           "white"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "38654",
-        "number": "10",
-        "label": "Small House",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "38655",
-        "number": "24",
-        "label": "Fresh Water",
-        "colors": [
-          "gold",
-          "white"
-        ]
-      },
-      {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "38656",
-        "number": "25",
-        "label": "John Crow",
-        "colors": [
-          "white",
-          "red"
         ]
       }
     ]
