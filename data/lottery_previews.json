@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-11-03T01:20:05.102Z",
+  "last_updated_utc": "2026-11-03T08:00:50.513Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -44,6 +44,28 @@
         "draw_no": "38654",
         "number": "10",
         "label": "Small House",
+        "colors": [
+          "white",
+          "red"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "38655",
+        "number": "24",
+        "label": "Fresh Water",
+        "colors": [
+          "gold",
+          "white"
+        ]
+      },
+      {
+        "time": "EVENING",
+        "at": "8:25PM",
+        "draw_no": "38656",
+        "number": "25",
+        "label": "John Crow",
         "colors": [
           "white",
           "red"
