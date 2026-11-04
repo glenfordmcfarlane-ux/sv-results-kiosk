@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-11-04T08:01:37.050Z",
+  "last_updated_utc": "2026-11-04T16:10:24.896Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,67 +8,12 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "38657",
-        "number": "27",
-        "label": "Big Fire",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "MORNING",
-        "at": "10:30AM",
-        "draw_no": "38658",
-        "number": "17",
-        "label": "Chinese Man",
+        "draw_no": "38663",
+        "number": "32",
+        "label": "Gold",
         "colors": [
           "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "38659",
-        "number": "21",
-        "label": "Bad Girl",
-        "colors": [
-          "gold",
-          "white"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "38660",
-        "number": "12",
-        "label": "Head",
-        "colors": [
-          "gold",
-          "white"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "38661",
-        "number": "26",
-        "label": "White Man",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "38662",
-        "number": "27",
-        "label": "Big Fire",
-        "colors": [
-          "white",
-          "white"
+          "gold"
         ]
       }
     ]
