@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-11-08T19:55:24.936Z",
+  "last_updated_utc": "2026-11-08T23:26:00.805Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -36,6 +36,17 @@
         "colors": [
           "white",
           "red"
+        ]
+      },
+      {
+        "time": "MIDAFTERNOON",
+        "at": "",
+        "draw_no": "38690",
+        "number": "11",
+        "label": "Dog",
+        "colors": [
+          "white",
+          "white"
         ]
       }
     ]
