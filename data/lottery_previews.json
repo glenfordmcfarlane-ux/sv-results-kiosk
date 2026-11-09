@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-11-09T02:53:11.341Z",
+  "last_updated_utc": "2026-11-09T21:07:09.754Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,31 +8,31 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "38687",
-        "number": "6",
-        "label": "Strong Man",
+        "draw_no": "38693",
+        "number": "7",
+        "label": "Married Woman",
         "colors": [
-          "gold",
+          "white",
           "white"
         ]
       },
       {
         "time": "MORNING",
         "at": "10:30AM",
-        "draw_no": "38688",
-        "number": "12",
-        "label": "Head",
+        "draw_no": "38694",
+        "number": "35",
+        "label": "Goat",
         "colors": [
-          "gold",
-          "white"
+          "white",
+          "red"
         ]
       },
       {
         "time": "MIDDAY",
         "at": "",
-        "draw_no": "38689",
-        "number": "30",
-        "label": "Fish",
+        "draw_no": "38695",
+        "number": "35",
+        "label": "Goat",
         "colors": [
           "white",
           "red"
@@ -41,33 +41,11 @@
       {
         "time": "MIDAFTERNOON",
         "at": "",
-        "draw_no": "38690",
-        "number": "11",
-        "label": "Dog",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "38691",
-        "number": "2",
-        "label": "Small Fire",
+        "draw_no": "38696",
+        "number": "23",
+        "label": "Black Man",
         "colors": [
           "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "38692",
-        "number": "28",
-        "label": "Fowl",
-        "colors": [
-          "white",
           "white"
         ]
       }
