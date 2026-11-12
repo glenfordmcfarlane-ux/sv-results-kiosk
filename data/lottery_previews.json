@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-11-12T07:48:43.980Z",
+  "last_updated_utc": "2026-11-12T16:20:49.933Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,67 +8,12 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "38705",
-        "number": "26",
-        "label": "White Man",
-        "colors": [
-          "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "MORNING",
-        "at": "10:30AM",
-        "draw_no": "38706",
-        "number": "3",
-        "label": "Dead",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "38707",
-        "number": "16",
-        "label": "Young Girl",
-        "colors": [
-          "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "38708",
-        "number": "18",
-        "label": "Race Horse",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "38709",
+        "draw_no": "38711",
         "number": "29",
         "label": "Parson",
         "colors": [
           "white",
-          "white"
-        ]
-      },
-      {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "38710",
-        "number": "7",
-        "label": "Married Woman",
-        "colors": [
-          "gold",
-          "white"
+          "red"
         ]
       }
     ]
@@ -77,14 +22,14 @@
     "title": "Lotto",
     "drawDate": "",
     "numbers": [
-      "3",
-      "4",
-      "16",
-      "19",
-      "20",
-      "31"
+      "5",
+      "8",
+      "11",
+      "13",
+      "21",
+      "32"
     ],
-    "bonus": "26",
+    "bonus": "37",
     "next_jackpot": null
   },
   "super_lotto": {
