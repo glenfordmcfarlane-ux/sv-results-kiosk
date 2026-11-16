@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-11-16T11:05:26.548Z",
+  "last_updated_utc": "2026-11-16T20:57:45.061Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,67 +8,23 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "38729",
-        "number": "4",
-        "label": "Egg",
+        "draw_no": "38735",
+        "number": "13",
+        "label": "Police",
         "colors": [
-          "white",
+          "gold",
           "white"
         ]
       },
       {
         "time": "MORNING",
         "at": "10:30AM",
-        "draw_no": "38730",
-        "number": "10",
-        "label": "Small House",
+        "draw_no": "38736",
+        "number": "23",
+        "label": "Black Man",
         "colors": [
           "gold",
           "white"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "38731",
-        "number": "36",
-        "label": "Old Lady",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "38732",
-        "number": "3",
-        "label": "Dead",
-        "colors": [
-          "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "38733",
-        "number": "24",
-        "label": "Fresh Water",
-        "colors": [
-          "gold",
-          "white"
-        ]
-      },
-      {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "38734",
-        "number": "3",
-        "label": "Dead",
-        "colors": [
-          "white",
-          "red"
         ]
       }
     ]
