@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-11-22T11:40:54.674Z",
+  "last_updated_utc": "2026-11-22T23:50:42.975Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,51 +8,7 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "38765",
-        "number": "28",
-        "label": "Fowl",
-        "colors": [
-          "white",
-          "white"
-        ]
-      },
-      {
-        "time": "MORNING",
-        "at": "10:30AM",
-        "draw_no": "38766",
-        "number": "1",
-        "label": "Duppy",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "38767",
-        "number": "24",
-        "label": "Fresh Water",
-        "colors": [
-          "gold",
-          "white"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "38768",
-        "number": "33",
-        "label": "Big House",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "DRIVETIME",
-        "at": "",
-        "draw_no": "38769",
+        "draw_no": "38771",
         "number": "7",
         "label": "Married Woman",
         "colors": [
@@ -61,14 +17,47 @@
         ]
       },
       {
-        "time": "EVENING",
-        "at": "8:25PM",
-        "draw_no": "38770",
-        "number": "31",
-        "label": "Lizard",
+        "time": "MORNING",
+        "at": "10:30AM",
+        "draw_no": "38772",
+        "number": "34",
+        "label": "Baby",
+        "colors": [
+          "gold",
+          "red"
+        ]
+      },
+      {
+        "time": "MIDDAY",
+        "at": "",
+        "draw_no": "38773",
+        "number": "11",
+        "label": "Dog",
         "colors": [
           "white",
           "red"
+        ]
+      },
+      {
+        "time": "MIDAFTERNOON",
+        "at": "",
+        "draw_no": "38774",
+        "number": "7",
+        "label": "Married Woman",
+        "colors": [
+          "white",
+          "white"
+        ]
+      },
+      {
+        "time": "DRIVETIME",
+        "at": "",
+        "draw_no": "38775",
+        "number": "27",
+        "label": "Big Fire",
+        "colors": [
+          "white",
+          "white"
         ]
       }
     ]
@@ -77,14 +66,14 @@
     "title": "Lotto",
     "drawDate": "",
     "numbers": [
-      "15",
-      "20",
-      "22",
-      "24",
-      "26",
-      "35"
+      "1",
+      "3",
+      "8",
+      "9",
+      "17",
+      "19"
     ],
-    "bonus": "23",
+    "bonus": "10",
     "next_jackpot": null
   },
   "super_lotto": {
