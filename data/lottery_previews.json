@@ -1,6 +1,6 @@
 {
   "source": "https://www.jamaicaindex.com/lottery/jamaica-lotto-results-for-today",
-  "last_updated_utc": "2026-11-23T14:44:59.143Z",
+  "last_updated_utc": "2026-11-24T01:55:29.652Z",
   "cash_pot": {
     "title": "Cash Pot",
     "drawDate": "",
@@ -8,53 +8,42 @@
       {
         "time": "EARLYBIRD",
         "at": "8:30AM",
-        "draw_no": "38771",
-        "number": "7",
-        "label": "Married Woman",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MORNING",
-        "at": "10:30AM",
-        "draw_no": "38772",
-        "number": "34",
-        "label": "Baby",
-        "colors": [
-          "gold",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDDAY",
-        "at": "",
-        "draw_no": "38773",
-        "number": "11",
-        "label": "Dog",
-        "colors": [
-          "white",
-          "red"
-        ]
-      },
-      {
-        "time": "MIDAFTERNOON",
-        "at": "",
-        "draw_no": "38774",
-        "number": "7",
-        "label": "Married Woman",
+        "draw_no": "38777",
+        "number": "21",
+        "label": "Bad Girl",
         "colors": [
           "white",
           "white"
         ]
       },
       {
-        "time": "DRIVETIME",
+        "time": "MORNING",
+        "at": "10:30AM",
+        "draw_no": "38778",
+        "number": "4",
+        "label": "Egg",
+        "colors": [
+          "white",
+          "white"
+        ]
+      },
+      {
+        "time": "MIDDAY",
         "at": "",
-        "draw_no": "38775",
-        "number": "27",
-        "label": "Big Fire",
+        "draw_no": "38779",
+        "number": "31",
+        "label": "Lizard",
+        "colors": [
+          "gold",
+          "red"
+        ]
+      },
+      {
+        "time": "MIDAFTERNOON",
+        "at": "",
+        "draw_no": "38780",
+        "number": "6",
+        "label": "Strong Man",
         "colors": [
           "white",
           "white"
